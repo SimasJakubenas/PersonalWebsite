@@ -1,3 +1,5 @@
+  @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Oswald&family=Tektur&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -33,4 +35,25 @@ nav {
     background-color: #161018;
     position: relative;
     top: -60px;
+}
+
+#menu {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    list-style-type: none;
+}
+
+#menu li{
+    border-radius: 10px;
+    margin: 20px 15px;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: beige;
 }
