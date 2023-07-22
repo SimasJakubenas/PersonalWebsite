@@ -16,7 +16,11 @@ header > div {
     margin-top: 10px
 }
 
-a {
-    border: 2px;
-}
+/* hero image */
 
+#hero-image {
+    width: 100%;
+    height: 600px;
+    background: url(../images/hero-image.jpeg) no-repeat center center;
+    background-size: cover;
+}
