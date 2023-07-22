@@ -51,9 +51,10 @@ nav {
     margin: 20px 15px;
     text-decoration: none;
     padding: 0 5px;
+    box-shadow: 15px 10px rgba(49,32,98,0.3);
 }
 
 #menu a {
     text-decoration: none;
-    color: beige;
+    color: #B0A8B9;
 }
