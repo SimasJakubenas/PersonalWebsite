@@ -13,10 +13,7 @@ header i {
 
 header > div {
     margin-left: 50px;
-    margin-top: 10px
-}
-
-header > div {
+    margin-top: 10px;
     float: left;
 }
 
@@ -27,4 +24,13 @@ header > div {
     height: 600px;
     background: url(../images/hero-image.jpeg) no-repeat center center;
     background-size: cover;
+}
+
+/* navigation links */
+
+nav {
+    height: 100px;
+    background-color: #161018;
+    position: relative;
+    top: -60px;
 }
