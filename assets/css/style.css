@@ -16,6 +16,10 @@ header > div {
     margin-top: 10px
 }
 
+header > div {
+    float: left;
+}
+
 /* hero image */
 
 #hero-image {
