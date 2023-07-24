@@ -70,6 +70,7 @@ nav {
 .section-box {
     height: auto;
     clear: both;
+    margin-bottom: 10%;
 }
 
 .section-box h1 {
@@ -87,6 +88,33 @@ nav {
     color: rgb(24, 6, 39);
 }
 
+.section-box-dark {
+    background-color: #161018;
+    
+}
+
+.section-box-dark h1, h3 {
+    color: #B0A8B9;
+}
+
+.section-box-dark p {
+    color: #B0A8B9;
+}
+
+.section-box-dark h3 {
+    font-size: 2em;
+    text-decoration-line: underline;
+}
+
+#education {
+    float: right;
+    height: 300px;
+}
+
+.work-exp-box {
+    height: 300px;
+}
+
 .content-box {
     position: relative;
     width: 70%;
@@ -99,4 +127,6 @@ nav {
     margin-right: 20px;
     border-radius: 10px;
 }
+
+
 
