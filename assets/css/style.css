@@ -86,12 +86,8 @@ nav {
     overflow: hidden;
 }
 
-.section-box h1 {
-    color: rgb(24, 6, 39);
-}
-
-.section-box p {
-    color: rgb(24, 6, 39);
+.dark-text {
+    color: rgb(24, 6, 39)
 }
 
 /* dark section styling */
