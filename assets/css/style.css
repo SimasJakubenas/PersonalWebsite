@@ -250,7 +250,7 @@ nav {
 }
 
 #html, #css {
-    height: 10px;
+    height: 5px;
     border: 1px solid #d2a1f285;
     margin: 10px 0;
     border-radius: 3px;
@@ -261,14 +261,43 @@ nav {
 #html span, #css span{
     background-color: #b438bc;
     position: absolute;
-    height: 10px;
+    height: 5px;
     border-radius: 3px;
 }
 
 #html span {
     width: 95%;
+    animation-name: html;
+    animation-duration: 2s;
 }
+
 
 #css span {
     width: 85%;
+    animation-name: css;
+    animation-duration: 2s;
+}
+
+/* =====    animations     ===================== */
+
+/* code languages bar animations */
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
 }
