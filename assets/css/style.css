@@ -143,6 +143,30 @@ nav {
     box-shadow: 5px 5px 15px;
 }
 
+#education i {
+    color: #d2a1f2;
+    font-size: 3em;
+    margin-left: 5%;
+    position: relative;
+    top: 20px;
+}
+
+#education span {
+    float: right;
+    height: 100px;
+    border: 2px solid #b438bc;
+    width: 60%;
+    color: #B0A8B9;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+#education i, span {
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
 #work-exp-container {
     float: left;
     position: relative;
