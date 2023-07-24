@@ -130,7 +130,7 @@ nav {
 
 /* work experience section */
 
-#education {
+#education-container {
     float: right;
     height: 300px;
     background-color: #2b2a2c;
@@ -144,7 +144,7 @@ nav {
     box-shadow: 5px 5px 15px;
 }
 
-#education i {
+#education-container i {
     color: #d2a1f2;
     font-size: 3em;
     margin-left: 5%;
@@ -152,7 +152,7 @@ nav {
     top: 20px;
 }
 
-#education span {
+#education-container span {
     float: right;
     height: 100px;
     border: 2px solid #b438bc;
