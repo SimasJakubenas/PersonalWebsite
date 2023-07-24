@@ -93,6 +93,7 @@ nav {
 .section-box-dark {
     background-color: #161018;
     height: auto;
+    margin-bottom: 0;
 }
 
 .section-box-dark h1, h3 {
@@ -183,4 +184,11 @@ nav {
 
 .fix-float {
     overflow: hidden;
+}
+
+/* skill section */
+
+#skills-intro {
+    padding: 0 50px;
+    text-indent: 3rem;
 }
