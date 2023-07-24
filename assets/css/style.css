@@ -159,7 +159,7 @@ nav {
     align-items: center;
 }
 
-#education i, span {
+#education-container i, span {
     margin-top: 15px;
     padding: 0 15px;
 }
