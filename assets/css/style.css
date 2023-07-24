@@ -96,7 +96,7 @@ nav {
     margin-bottom: 0;
 }
 
-.section-box-dark h1, h3 {
+.section-box-dark > h1, h3 {
     color: #B0A8B9;
 }
 
@@ -191,4 +191,59 @@ nav {
 #skills-intro {
     padding: 0 50px;
     text-indent: 3rem;
+    margin-bottom: 50px;
 }
+
+#life-skills {
+    background-color: #2b2a2c;
+    border: 3px solid black;
+    border-radius: 25px;
+    width: 80%;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#life-skills h3 {
+    font-size: 2rem;
+}
+
+#float-left-skill {
+    float: left;
+    height: 200px;
+    border: 2px solid black;
+    width: 250px;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 15px;
+    background-color: #B0A8B9;
+    box-shadow: 5px 5px 15px;
+    margin: 30px 50px;
+}
+
+#float-right-skill {
+    float: right;
+    height: 200px;
+    border: 2px solid black;
+    width: 250px;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 15px;
+    background-color: #B0A8B9;
+    box-shadow: 5px 5px 15px;
+    margin: 30px 50px;
+}
+
+#fit-center-skill {
+    margin: 30px auto;
+    border: 2px solid black;
+    height: 200px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #B0A8B9;
+    box-shadow: 5px 5px 15px;
+}
+
