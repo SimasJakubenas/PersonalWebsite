@@ -68,7 +68,8 @@ nav {
 /* section styling */
 
 .section-box {
-    height: 500px;
+    height: auto;
+    clear: both;
 }
 
 .section-box h1 {
