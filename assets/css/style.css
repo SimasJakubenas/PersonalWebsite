@@ -160,6 +160,8 @@ nav {
     text-align: center;
     margin-right: 15px;
     border-radius: 10px;
+    display: grid;
+    align-items: center;
 }
 
 #education i, span {
@@ -177,4 +179,8 @@ nav {
 .work-exp-box {
     height: auto;
     padding-bottom: 20px;
+}
+
+.fix-float {
+    overflow: hidden;
 }
