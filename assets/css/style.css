@@ -110,6 +110,21 @@ nav {
     padding: 40px 0;
 }
 
+/* bio section */
+
+.content-box {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#bio-picture {
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
 /* work experience section */
 
 #education {
@@ -137,19 +152,3 @@ nav {
     height: auto;
     padding-bottom: 20px;
 }
-
-.content-box {
-    position: relative;
-    width: 70%;
-    margin: 0 auto;
-}
-
-#bio-picture {
-    height: 250px;
-    float: left;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-
-
-
