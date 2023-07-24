@@ -98,17 +98,8 @@ nav {
     margin-bottom: 0;
 }
 
-.section-box-dark > h1, h3 {
+.bright-text {
     color: #B0A8B9;
-}
-
-.section-box-dark p {
-    color: #B0A8B9;
-}
-
-.section-box-dark h3 {
-    font-size: 2em;
-    text-decoration-line: underline;
 }
 
 .heading {
