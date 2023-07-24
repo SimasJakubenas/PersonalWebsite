@@ -210,40 +210,27 @@ nav {
     font-size: 2rem;
 }
 
-#float-left-skill {
-    float: left;
+.skill-box {
     height: 200px;
     border: 2px solid black;
     width: 250px;
     padding: 15px;
     border-radius: 25px;
-    margin: 15px;
     background-color: #B0A8B9;
     box-shadow: 5px 5px 15px;
+}
+
+#float-left-skill {
+    float: left;
     margin: 30px 50px;
 }
 
 #float-right-skill {
     float: right;
-    height: 200px;
-    border: 2px solid black;
-    width: 250px;
-    padding: 15px;
-    border-radius: 25px;
-    margin: 15px;
-    background-color: #B0A8B9;
-    box-shadow: 5px 5px 15px;
     margin: 30px 50px;
 }
 
 #fit-center-skill {
     margin: 30px auto;
-    border: 2px solid black;
-    height: 200px;
-    width: 250px;
-    padding: 15px;
-    border-radius: 25px;
-    background-color: #B0A8B9;
-    box-shadow: 5px 5px 15px;
 }
 
