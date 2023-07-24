@@ -96,6 +96,7 @@ nav {
     background-color: #111810;
     height: auto;
     margin-bottom: 0;
+    overflow: hidden;
 }
 
 .bright-text {
