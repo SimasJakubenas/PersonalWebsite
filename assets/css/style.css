@@ -240,3 +240,35 @@ nav {
     right: -25%;
 }
 
+/* coding languages bar */
+
+#code-skill-container {
+    background-color: #161018;
+    padding: 20px 50px;
+    width: 60%;
+    margin: 15px auto;
+}
+
+#html, #css {
+    height: 10px;
+    border: 1px solid #d2a1f285;
+    margin: 10px 0;
+    border-radius: 3px;
+    background-color: rgba(200, 39, 221, 0.3);
+    position: relative;
+}
+
+#html span, #css span{
+    background-color: #b438bc;
+    position: absolute;
+    height: 10px;
+    border-radius: 3px;
+}
+
+#html span {
+    width: 95%;
+}
+
+#css span {
+    width: 85%;
+}
