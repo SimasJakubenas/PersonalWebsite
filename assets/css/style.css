@@ -80,7 +80,7 @@ nav {
 
 /* section styling */
 
-.section-box {
+.section-bright {
     height: auto;
     margin-bottom: 10%;
     overflow: hidden;
@@ -97,7 +97,7 @@ nav {
 /* dark section styling */
 
 .section-box-dark {
-    background-color: #161018;
+    background-color: #111810;
     height: auto;
     margin-bottom: 0;
 }
