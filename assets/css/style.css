@@ -198,35 +198,35 @@ nav {
 }
 
 #life-skills-container {
-    background-color: #2b2a2c;
+    background-color: #161018;
     border: 3px solid black;
     border-radius: 25px;
-    width: 80%;
+    width: 70%;
     text-align: center;
     height: auto;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 50px auto;
     padding-top: 20px;
 }
 
 .skill-box {
-    height: 200px;
+    height: 150px;
     border: 2px solid black;
-    width: 250px;
+    width: 150px;
     padding: 15px;
-    border-radius: 25px;
-    background-color: #B0A8B9;
+    border-radius: 50%;
+    background-color: #2b2a2c;
     box-shadow: 5px 5px 15px;
 }
 
 #float-left-skill {
     float: left;
-    margin: 30px 50px;
+    margin: 30px 75px;
 }
 
 #float-right-skill {
     float: right;
-    margin: 30px 50px;
+    margin: 30px 75px;
 }
 
 #fit-center-skill {
