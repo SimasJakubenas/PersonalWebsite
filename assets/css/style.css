@@ -285,7 +285,25 @@ nav {
 
 /* portfolio */
 
+#project-box-container {
+    display: flex;
+    width: 90%;
+    margin: 15px auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
 
+.project-box {
+    height: 250px;
+    border: 2px solid black;
+    width: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #B0A8B9;
+    box-shadow: 5px 5px 15px black;
+    margin: 25px;
+
+}
 
 /* =====    animations     ===================== */
 
