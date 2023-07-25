@@ -216,7 +216,7 @@ nav {
     padding: 15px;
     border-radius: 50%;
     background-color: #2b2a2c;
-    box-shadow: 5px 5px 15px;
+    box-shadow: 5px 5px 15px #d2a1f2;
 }
 
 #float-left-skill {
@@ -231,6 +231,11 @@ nav {
 
 #fit-center-skill {
     margin: 30px auto;
+}
+
+#life-skills-container i {
+    font-size: 116px;
+    text-align: center;
 }
 
 #coding-heading {
