@@ -386,9 +386,30 @@ footer a {
     text-decoration: none;
 }
 
-#social-media {
-    margin: 0 auto;
-    background-color: blue;
+#copywright {
+    margin: 10px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.1em;
+}
+
+#copywright span {
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+}
+
+#copywright i {
+    margin-left: 15px;
+    font-size: 2em;
+    position: relative;
+    top: 8px;
+    color: #d2a1f2;
+}
+
+#copywright div {
+    display: inline;
+    vertical-align: auto;
 }
 
 #github {
