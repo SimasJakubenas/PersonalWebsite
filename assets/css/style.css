@@ -372,7 +372,6 @@ footer h4 {
 }
 
 footer ul {
-    display: flex;
     list-style-type: none;
     text-align: center;
 }
@@ -380,10 +379,16 @@ footer ul {
 footer li {
     margin: 0 15px;
     font-weight: 600;
+    display: inline;
 }
 
 footer a {
     text-decoration: none;
+}
+
+#social-media {
+    margin: 0 auto;
+    background-color: blue;
 }
 
 #github {
