@@ -386,20 +386,20 @@ footer a {
     text-decoration: none;
 }
 
-#copywright {
+#copyright {
     margin: 10px;
     text-align: center;
     padding: 10px 0;
     font-size: 1.1em;
 }
 
-#copywright span {
+#copyright span {
     position: absolute;
     right: 10px;
     margin-top: 10px;
 }
 
-#copywright i {
+#copyright i {
     margin-left: 15px;
     font-size: 2em;
     position: relative;
