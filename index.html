@@ -149,8 +149,23 @@
             <div class="project-box"></div>
         </div>
     </section>
-    <section>
-        Contact me
+    <section class="section-bright">
+        <h1 class="heading">Contact Me</h1>
+        <form method="POST" action="">
+            <h3>Select the reason</h3>
+            <div>
+                <input id="job" type="radio" name="reason" value="job_offer">
+                <label for="job">Job Offer</label>
+                <input id="colab" type="radio" name="reason" value="collaboration">
+                <label for="colab">Collaboration</label>
+                <input id="interest" type="radio" name="reason" value="common_interest">
+                <label for="job">Common Interest</label>
+            </div>
+            <input type="text" name="name" placeholder="Name:">
+            <input type="email" name="email" placeholder="Email:">
+            <textarea name="message" rows="5" placeholder="Message:"></textarea>
+            <button >Submit</button>
+        </form>
     </section>
     <footer>
         Social links and stuff
