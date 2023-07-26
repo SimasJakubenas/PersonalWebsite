@@ -305,6 +305,64 @@ nav {
 
 }
 
+/* contact me */
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #161018;
+}
+
+form div {
+    border: 2px solid #161018;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 1.5em;
+    margin-top: 3px;
+    background-color: #d2a1f2;
+}
+
+form label {
+    margin-right: 5%;
+}
+
+form > input, textarea, button {
+    background-color: #2b2a2c;
+    display:inline;
+    width: 48%;
+    color: #B0A8B9;
+    line-height: 2em;
+    padding: 0 3px;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+textarea::placeholder,  form > input::placeholder {
+    color: #B0A8B9;
+    opacity: 0.8;
+    font-family: Barlow, sans-serif;
+}
+
+textarea {
+    float: right;
+    border: 2px solid #d2a1f2;
+}
+
+button {
+    background-color: #d2a1f2;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgba(49,32,98,1);
+}
+
 /* =====    animations     ===================== */
 
 /* code languages bar animations */
