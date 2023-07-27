@@ -324,14 +324,16 @@ nav {
 #html span {
     width: 95%;
     animation-name: html;
-    animation-duration: 2s;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
 }
 
 
 #css span {
     width: 85%;
     animation-name: css;
-    animation-duration: 2s;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
 }
 
 /* portfolio */
@@ -492,6 +494,10 @@ footer a {
         width: 0%;
     }
 
+    25% {
+        width: 95%;
+    }
+
     100% {
         width: 95%;
     }
@@ -500,6 +506,10 @@ footer a {
 @keyframes css {
     0% {
         width: 0%;
+    }
+
+    25% {
+        width: 85%;
     }
 
     100% {
