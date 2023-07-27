@@ -58,6 +58,47 @@ header > div {
     background-size: cover;
 }
 
+/* greating message */
+
+#greating {
+    width: 555px;
+    height: 275px;
+    position: absolute;
+    top: 150px;
+    right: 130px;
+    color: #B0A8B9;
+    margin: 0;
+}
+
+#greating h1 {
+    font-size: 2.3em;
+    font-family: Tektur, cursive;
+    letter-spacing: .15em;
+    margin: 0;
+}
+    
+#type_animation {
+    overflow: hidden;
+    border-right: .15em solid #d2a1f2;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: 
+        typing 2.7s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+    /* The typing effect */
+@keyframes typing {
+    from { width: 30% }
+    to { width: 100% }
+  }
+  
+    /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #d2a1f2; }
+  }
+
 /* navigation links */
 
 nav {
