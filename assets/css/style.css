@@ -114,15 +114,15 @@ nav {
     float: right;
     display: flex;
     flex-direction: row;
-    font-size: 1.5rem;
+    font-size: 4vh;
     font-family: 'Oswald', sans-serif;
     list-style-type: none;
-    padding-bottom: 50px;
+    padding: auto 2vw;
 }
 
 #menu li{
     border-radius: 10px;
-    margin: 10px 15px;
+    margin: 2vh 1vh;
     text-decoration: none;
     padding: 0 5px;
     box-shadow: 3px 3px 3px #B0A8B9;
