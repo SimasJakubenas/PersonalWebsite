@@ -36,13 +36,12 @@ p {
 /* header */
 
 header i {
-    font-size: 2em;
-    margin: 10px;
+    font-size: 5vh;
+    margin:0 1vw;
 }
-
 header > div {
     margin-left: 50px;
-    margin-top: 7px;
+    margin: 2.5vh;
     float: left;
     position: fixed;
     top: 0;
