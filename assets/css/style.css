@@ -60,11 +60,11 @@ header > div {
 /* greating message */
 
 #greating {
-    width: 555px;
-    height: 275px;
+    width: 40vw;
+    height: 30vh;
     position: absolute;
-    top: 150px;
-    right: 130px;
+    top: 20vh;
+    right: 20vw;
     color: #B0A8B9;
     margin: 0;
 }
