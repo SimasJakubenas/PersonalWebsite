@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Oswald&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Oswald&family=Tektur&display=swap');
 
 * {
     margin: 0;
@@ -176,7 +176,7 @@ nav {
     border-radius: 10px;
 }
 
-/* work experience section */
+/* education section */
 
 #education-container {
     height: auto;
@@ -212,6 +212,12 @@ nav {
     padding: 0 15px;
 }
 
+.fix-float {
+    overflow: hidden;
+}
+
+/* work experience section */
+
 #work-exp-container {
     display: flex;
     margin-bottom: 20px;
@@ -228,10 +234,6 @@ nav {
     text-decoration: underline;
 }
 
-.fix-float {
-    overflow: hidden;
-}
-
 /* skill section */
 
 #skills-intro {
@@ -240,54 +242,12 @@ nav {
     margin-bottom: 50px;
 }
 
-#life-skills-container {
-    background-color: #161018;
-    border: 2px dashed #d2a1f2;
-    border-radius: 25px;
-    width: 60%;
-    text-align: center;
-    height: auto;
-    overflow: hidden;
-    margin: 20px auto 50px;
-}
-
-.skill-box {
-    height: 100px;
-    border: 2px solid black;
-    width: 100px;
-    padding: 10px;
-    border-radius: 50%;
-    background-color: #2b2a2c;
-    box-shadow: 5px 5px 15px #d2a1f2;
-}
-
-#float-left-skill {
-    float: left;
-    margin: 30px 75px;
-}
-
-#float-right-skill {
-    float: right;
-    margin: 30px 75px;
-}
-
-#fit-center-skill {
-    margin: 30px auto;
-}
-
-#life-skills-container i {
-    font-size: 76px;
-    text-align: center;
-}
-
 #coding-heading {
     margin-top: 30px;
     margin-bottom: 15px;
     position: relative;
     right: -25%;
 }
-
-/* coding languages bar */
 
 #code-skill-container {
     background-color: #161018;
@@ -327,26 +287,46 @@ nav {
     animation-iteration-count: infinite;
 }
 
-/* portfolio */
+/* work experience icons */
 
-#project-box-container {
-    display: flex;
-    width: 90%;
-    margin: 15px auto;
-    justify-content: space-between;
-    margin-bottom: 50px;
+#life-skills-container {
+    background-color: #161018;
+    border: 2px dashed #d2a1f2;
+    border-radius: 25px;
+    width: 60%;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+    margin: 20px auto 50px;
 }
 
-.project-box {
-    height: 250px;
+.skill-box {
+    height: 100px;
     border: 2px solid black;
-    width: 200px;
-    padding: 15px;
-    border-radius: 15px;
-    background-color: #B0A8B9;
-    box-shadow: 5px 5px 15px black;
-    margin: 25px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #2b2a2c;
+    box-shadow: 5px 5px 15px #d2a1f2;
+}
 
+#float-left-skill {
+    float: left;
+    margin: 30px 75px;
+}
+
+#float-right-skill {
+    float: right;
+    margin: 30px 75px;
+}
+
+#fit-center-skill {
+    margin: 30px auto;
+}
+
+#life-skills-container i {
+    font-size: 76px;
+    text-align: center;
 }
 
 /* contact me */
