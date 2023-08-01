@@ -393,6 +393,17 @@ nav {
     cursor: pointer;
 }
 
+.icon-text-fig .close-button:before {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    content: "";
+    cursor: default;
+}
+
 /* contact me */
 
 form {
