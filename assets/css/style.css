@@ -151,6 +151,7 @@ nav {
     height: auto;
     margin-bottom: 0;
     overflow: hidden;
+    position: relative;
 }
 
 .bright-text {
