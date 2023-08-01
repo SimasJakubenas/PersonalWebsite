@@ -180,7 +180,6 @@ nav {
 /* education section */
 
 .education-container {
-    display: flex;
     justify-content: space-evenly;
     margin-bottom: 50px;
 }
@@ -193,42 +192,46 @@ nav {
     top: 3vh;
 }
 
-.education-wrapper {
-    height: 100px;
-    width: 35%;
-    border: 1px solid #161018;
-    border-radius: 10px;
-    position: relative;
-}
-
-.education-wrapper span {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-
-
-.education-wrapper #reveal-school, .education-wrapper #reveal-institute {
-    border: 2px solid #161018;
-    background-color: #161018;
-    border-radius: 10px;
-    color: #161018;
-    z-index: 5000;
-}
-
-.education-wrapper #reveal-school2, .education-wrapper #reveal-institute2 {
+#reveal-school, #reveal-institute {
     border: 2px solid #b438bc;
-    color: #B0A8B9;
     border-radius: 10px;
     padding: 15px 0;
-
+    height: 100px;
+    width: 35%;
+    visibility: hidden;
 }
 
-#reveal-school:target, #reveal-institute:target {
-    transform: translateY(-50vh);
-    z-index: -100;
+#reveal-school:target {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reveal-institute:target {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reveal-school:target figcaption, #reveal-institute:target figcaption {
+    border: 2px solid #b438bc;
+    border-radius: 10px;
+    padding: 15px 0;
+    height: 100px;
+    width: 35%;
+    text-align: center;
+    display: block;
+    visibility: visible;
 }
 
 /* work experience section */
