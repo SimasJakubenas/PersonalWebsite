@@ -44,6 +44,26 @@ header > div {
     z-index: 200;
 }
 
+#github {
+    color: #b438bc;
+}
+
+#facebook {
+    color: #4783eb;
+}
+
+#linkedin {
+    color: #5692fb;
+}
+
+#twitter {
+    color: #7ecef7;
+}
+
+#instagram {
+    color: #e22881;
+}
+
 /* hero image */
 
 #hero-image {
