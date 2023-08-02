@@ -33,6 +33,7 @@ header i {
 
 header a {
     text-decoration: none;
+    outline: none;
 }
 
 header > div {
@@ -42,6 +43,16 @@ header > div {
     position: fixed;
     top: 0;
     z-index: 200;
+}
+
+/* navigation icons hover effect */
+
+header i {
+    transition: 0.2s ease-in-out;
+}
+
+header i:hover, header i:focus{
+    transform: scale(1.2);
 }
 
 #github {
