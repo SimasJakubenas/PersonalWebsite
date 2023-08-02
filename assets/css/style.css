@@ -45,13 +45,18 @@ header > div {
     z-index: 200;
 }
 
+header ul {
+    display: flex;
+    list-style: none;
+}
+
 /* navigation icons hover effect */
 
-header i {
+header li {
     transition: 0.2s ease-in-out;
 }
 
-header i:hover, header i:focus{
+header li:hover, header a:focus i {
     transform: scale(1.2);
 }
 
