@@ -148,6 +148,23 @@ nav {
     color: #B0A8B9;
 }
 
+/* navigation link hover effect */
+
+#menu a:hover, #menu a:focus {
+    color: #b438bc;
+    outline: none;
+}
+
+#menu li:hover, #menu li:focus {
+    box-shadow: 3px 3px 3px #b438bc;
+    outline: none;
+}
+
+#menu li:active, #menu li:active {
+    box-shadow: 3px 6px 3px #b438bc;
+    outline: none;    
+}
+
 /* section styling */
 
 .section-bright {
