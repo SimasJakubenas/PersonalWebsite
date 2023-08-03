@@ -97,8 +97,8 @@ header li:hover, header a:focus i {
 
 /* greating message */
 
-#greating {
-    width: 40vw;
+#greating-container {
+    width: 45vw;
     height: 30vh;
     position: absolute;
     top: 20vh;
@@ -107,11 +107,15 @@ header li:hover, header a:focus i {
     margin: 0;
 }
 
-#greating h1 {
+#greating-container h1 {
     font-size: 2.3em;
     font-family: Tektur, cursive;
     letter-spacing: .15em;
     margin: 0;
+}
+
+#greating-container h1:nth-child(1) {
+    text-indent: 3em;
 }
     
 #type_animation {
