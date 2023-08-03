@@ -89,6 +89,12 @@ header li:hover, header a:focus i {
     background-size: cover;
 }
 
+.highlight-name {
+    font-size: 1.2em;
+    text-decoration: underline;
+    color: #d2a1f2;
+}
+
 /* greating message */
 
 #greating {
