@@ -209,19 +209,19 @@
         <div class="section-heading">
             <h1>Contact Me</h1>
         </div>
-        <form method="POST" action="">
+        <form method="POST" action="https://formdump.codeinstitute.net/">
             <h3 class="bright-text">Select the reason</h3>
             <div>
-                <input id="job" type="radio" name="reason" value="job_offer">
+                <input id="job" type="radio" name="reason" value="job_offer" required>
                 <label for="job">Job Offer</label>
                 <input id="colab" type="radio" name="reason" value="collaboration">
                 <label for="colab">Collaboration</label>
                 <input id="interest" type="radio" name="reason" value="common_interest">
                 <label for="job">Common Interest</label>
             </div>
-            <input type="text" name="name" placeholder="Name:">
-            <textarea name="message" rows="5" placeholder="Message:"></textarea>
-            <input type="email" name="email" placeholder="Email:">
+            <input type="text" name="name" placeholder="Name:" required>
+            <textarea name="message" rows="5" placeholder="Message:" required></textarea>
+            <input type="email" name="email" placeholder="Email:" required>
             <button >Submit</button>
         </form>
     </section>
