@@ -493,10 +493,6 @@ nav {
     cursor: default;
 }
 
-#fix-position, #fix-position2  #fix-position3{
-    position: relative;
-}
-
 /* contact me */
 
 form {
