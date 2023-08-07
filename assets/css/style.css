@@ -316,6 +316,10 @@ nav {
     text-decoration: underline;
 }
 
+.work-exp-box p {
+    font-size: 1.5em;
+}
+
 /* skill section */
 
 #skills-intro {
