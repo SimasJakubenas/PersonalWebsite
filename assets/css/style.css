@@ -395,7 +395,7 @@ nav {
     width: 100px;
     padding: 10px;
     border-radius: 50%;
-    background-color: #570526;
+    background-color: #2b2a2c;
     box-shadow: 5px 5px 15px #d2a1f2;
 }
 
@@ -416,6 +416,21 @@ nav {
 #work-icons-container i {
     font-size: 76px;
     text-align: center;
+    color: #d2a1f2;
+}
+
+/* work icons hover and focus effects */
+
+.work-icon-box:hover {
+    box-shadow: 5px 5px 15px #b438bc;
+}
+
+.work-icon-box a:focus {
+    outline: none;
+}
+
+#work-icons-container a:focus i, #work-icons-container a:hover i {
+    color: #b438bc;
 }
 
 /* work icons pop-up text */
