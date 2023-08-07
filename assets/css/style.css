@@ -247,10 +247,14 @@ nav {
     transition: 0.3s ease-in-out;
 }
 
-/* education icons hover effect */
+/* education icons hover and focus effect */
 
-.education-container i:hover {
+.education-container i:hover, .education-container a:focus i {
     transform: scale(1.1);
+}
+
+.education-container a:focus {
+    outline: none;
 }
 
 /* education icon toggle */
