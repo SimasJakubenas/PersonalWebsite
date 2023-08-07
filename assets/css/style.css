@@ -231,6 +231,10 @@ nav {
 
 /* education section */
 
+#education {
+    padding-bottom: 100px;
+}
+
 .education-container {
     margin-bottom: 50px;
 }
@@ -241,13 +245,18 @@ nav {
     margin-left: 20%;
     position: relative;
     padding-top: 65px;
+    transition: 0.3s ease-in-out;
+}
+
+/* education icons hover effect */
+
+.education-container i:hover {
+    transform: scale(1.1);
 }
 
 /* education icon toggle */
 
-#education {
-    padding-bottom: 100px;
-}
+
 
 #ed-figure-container {
     position: relative;
