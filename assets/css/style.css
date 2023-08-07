@@ -550,6 +550,16 @@ button {
     color: #b438bc;
 }
 
+ form button:hover,  form button:focus {
+    border-style: inset;
+    color: #d2a1f2;
+    background-color: #b438bc;
+    border: 4px groove #d2a1f2;
+    outline: none;
+    border-top: none;
+    border-left: none;
+}
+
 /* footer */
 
 footer h4 {
