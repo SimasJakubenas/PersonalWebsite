@@ -298,28 +298,6 @@ nav {
     background-color: #2b2a2c;
 }
 
-/* work experience section */
-
-#work-exp-container {
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: space-evenly;
-}
-
-.work-exp-box {
-    height: auto;
-    padding-bottom: 20px;
-}
-
-.high-light {
-    font-size: 2em;
-    text-decoration: underline;
-}
-
-.work-exp-box p {
-    font-size: 1.5em;
-}
-
 /* skill section */
 
 #skills-intro {
@@ -374,6 +352,28 @@ nav {
     animation-name: css;
     animation-duration: 4.5s;
     animation-iteration-count: infinite;
+}
+
+/* work experience section */
+
+#work-exp-container {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.work-exp-box {
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.high-light {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.work-exp-box p {
+    font-size: 1.5em;
 }
 
 /* work experience icons */
