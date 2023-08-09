@@ -229,10 +229,10 @@ nav {
 /* education section */
 
 #education {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 .education-container {
-    margin-bottom: 50px;
+    margin-bottom: 10vh;
 }
 
 .education-container i {
@@ -240,7 +240,7 @@ nav {
     font-size: 4em;
     margin-left: 20%;
     position: relative;
-    padding-top: 65px;
+    padding-top: 2vh;
     transition: 0.3s ease-in-out;
 }
 
@@ -276,20 +276,20 @@ nav {
 }
 
 #reveal-school:target {
-    padding-top: 110px;
+    padding-top: 20vh;
     align-items: center;
 }
 
 #reveal-institute:target {
-    top: -40px;
     align-items: flex-end;
+    padding-top: 5vh;
 }
 
 #reveal-school figcaption, #reveal-institute figcaption {
     border: 3px solid #b438bc;
     border-radius: 10px;
-    padding: 15px 0;
-    height: 100px;
+    padding: 2vh 0;
+    height: 15vh;
     width: 60%;
     text-align: center;
     background-color: #2b2a2c;
