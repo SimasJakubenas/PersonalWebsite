@@ -596,17 +596,31 @@ footer a {
     margin-top: 10px;
 }
 
+#copywright div {
+    display: inline;
+    vertical-align: auto;
+}
+
 #copyright i {
     margin-left: 15px;
     font-size: 2em;
     position: relative;
     top: 8px;
     color: #d2a1f2;
+    transition: 0.2s ease-in-out;
 }
 
-#copywright div {
-    display: inline;
-    vertical-align: auto;
+#copyright a {
+    outline: none;
+}
+
+#copyright i:hover, #copyright a:focus i {
+    transform: scale(1.2);
+}
+
+
+#copyright a:active i {
+    color: #b438bc;
 }
 
 #github {
