@@ -18,10 +18,9 @@ body {
 
 .section-heading {
     text-align: center;
-    margin-bottom: 20px;
     font-size: 2em;
     font-family: Oswald, sans-serif;
-    padding: 60px 0 40px;
+    padding: 15vh 0 7.5vh;
 }
 
 /* header */
@@ -191,8 +190,7 @@ nav {
 /* section styling */
 
 .section-bright {
-    height: auto;
-    margin-bottom: 10%;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -204,8 +202,7 @@ nav {
 
 .section-dark {
     background-color: #161018;
-    height: auto;
-    margin-bottom: 0;
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
@@ -561,6 +558,10 @@ button {
 }
 
 /* footer */
+
+footer {
+    height: auto !important;
+}
 
 footer h4 {
     text-align: center;
