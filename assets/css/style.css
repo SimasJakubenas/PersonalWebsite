@@ -577,6 +577,7 @@ footer li {
     margin: 0 15px;
     font-weight: 600;
     display: inline;
+    font-size: 1.2em;
 }
 
 footer a {
@@ -618,9 +619,14 @@ footer a {
     transform: scale(1.2);
 }
 
-
 #copyright a:active i {
     color: #b438bc;
+}
+
+/* footer links focus effect */
+
+footer li a:focus {
+    outline: solid #d2a1f2;
 }
 
 #github {
