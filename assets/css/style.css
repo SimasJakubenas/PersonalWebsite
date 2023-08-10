@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+::selection {
+    color: #b438bc;
+    background-color: #2b2a2c;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -557,6 +562,10 @@ form div {
 
 form label {
     margin-right: 5%;
+}
+
+input[type='radio'] {
+    accent-color: #b438bc;
 }
 
 form > input, textarea, button {
