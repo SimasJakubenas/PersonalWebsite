@@ -253,29 +253,30 @@ nav {
     outline: none;
 }
 
-.click-me {
+.click-me, .click-me-arrow {
     float: right;
     position: relative;
-    right: 50vw;
-    top: 5vh;
-    font-size: 1.5em;
     font-weight: 600;
     color: #d2a1f2;
 }
 
 .click-me {
-    /* overflow: hidden; */
-    animation-duration: 10s;
-    animation-name: arrow;
-    animation-direction: alternate;
+    top: 4.5vh;
+    right: 45vw;
+    font-size: 1.7em;
+}
+
+.click-me-arrow {
+    animation: 4s arrow infinite;
+    right: 51vw;
 }
 
 @keyframes arrow {
-    from {
+    0%, 100% {
         width: 0;
     }
-    to {
-        width: 100%;
+    50% {
+        width: 4%;
     }
 }
 
