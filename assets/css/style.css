@@ -317,6 +317,7 @@ nav {
     width: 60%;
     margin: 15px auto;
     text-transform: uppercase;
+    border-radius: 10px;
 }
 
 #skill-html, #skill-css {
