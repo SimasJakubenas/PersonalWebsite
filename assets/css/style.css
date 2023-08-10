@@ -228,11 +228,8 @@ nav {
 
 /* education section */
 
-#education {
-    /* padding-bottom: 100px; */
-}
 .education-container {
-    margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 
 .education-container i {
@@ -256,8 +253,6 @@ nav {
 
 /* education icon toggle */
 
-
-
 #ed-figure-container {
     position: relative;
 }
@@ -278,11 +273,13 @@ nav {
 #reveal-school:target {
     padding-top: 20vh;
     align-items: center;
+    top: -3vh;
 }
 
 #reveal-institute:target {
     align-items: flex-end;
     padding-top: 5vh;
+    top: -7vh;
 }
 
 #reveal-school figcaption, #reveal-institute figcaption {
