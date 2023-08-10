@@ -253,6 +253,32 @@ nav {
     outline: none;
 }
 
+.click-me {
+    float: right;
+    position: relative;
+    right: 50vw;
+    top: 5vh;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #d2a1f2;
+}
+
+.click-me {
+    /* overflow: hidden; */
+    animation-duration: 10s;
+    animation-name: arrow;
+    animation-direction: alternate;
+}
+
+@keyframes arrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 /* education icon toggle */
 
 #ed-figure-container {
