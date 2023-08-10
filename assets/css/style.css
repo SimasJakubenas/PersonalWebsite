@@ -672,7 +672,11 @@ footer a {
     color: #b438bc;
 }
 
-/* footer links focus effect */
+/* footer links focus and hover effects */
+
+footer li a:hover {
+    text-decoration: underline;
+}
 
 footer li a:focus {
     outline: solid #d2a1f2;
