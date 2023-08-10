@@ -303,6 +303,19 @@ nav {
     font-size: 1.5rem;
 }
 
+/* link to code institute */
+
+#skills-intro a {
+    text-decoration: none;
+    color: #b438bc;
+    font-weight: 600;
+}
+
+#skills-intro a:hover, #skills-intro a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
 #coding-heading {
     margin-top: 30px;
     margin-bottom: 15px;
