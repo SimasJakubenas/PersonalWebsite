@@ -217,6 +217,8 @@ nav {
     position: relative;
     width: 70%;
     margin: 0 auto;
+    font-size: 1.5em;
+    text-indent: 3em;
 }
 
 #bio-picture {
