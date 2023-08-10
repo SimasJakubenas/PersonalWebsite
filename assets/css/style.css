@@ -447,6 +447,7 @@ nav {
 
 .icon-text-fig {
     display: none;
+    font-size: 1.5em;
 }
 
 .icon-text-fig:target {
@@ -461,12 +462,17 @@ nav {
 }
 
 .icon-text-fig figcaption {
-    width: 25rem;
+    width: 35vw;
     position: relative;
-    padding: 1.5em;
-    background-color: #d2a1f2;
-    color: #121810;
-    border-radius: 15px;
+    border: 3px solid #b438bc;
+    border-radius: 10px;
+    padding: 2vh;
+    text-align: center;
+    background-color: #2b2a2c;
+}
+
+.icon-text-fig figcaption strong {
+    color: #b438bc;
 }
 
 .icon-text-fig .close-button {
