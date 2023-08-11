@@ -364,17 +364,13 @@ nav {
 
 #skill-html span {
     width: 95%;
-    animation-name: html;
-    animation-duration: 4.5s;
-    animation-iteration-count: infinite;
+    animation: 4.5s html-skill infinite;
 }
 
 
 #skill-css span {
     width: 85%;
-    animation-name: css;
-    animation-duration: 4.5s;
-    animation-iteration-count: infinite;
+    animation: 4.5s css-skill infinite;
 }
 
 /* --------------------------------  Work Experience Section  -- */
@@ -729,7 +725,7 @@ footer li a:focus {
 }
 
 /* Code Languages Bar Animations */
-@keyframes html {
+@keyframes html-skill {
     0% {
         width: 0%;
     }
@@ -743,7 +739,7 @@ footer li a:focus {
     }
 }
 
-@keyframes css {
+@keyframes css-skill {
     0% {
         width: 0%;
     }
