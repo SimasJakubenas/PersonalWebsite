@@ -226,9 +226,12 @@ nav {
 .education-container i {
     color: #d2a1f2;
     font-size: 4em;
-    margin-left: 20%;
     position: relative;
     padding-top: 2vh;
+}
+
+.education-container a i {
+    margin-left: 20%;
     transition: 0.3s ease-in-out;
 }
 
@@ -247,12 +250,10 @@ nav {
 .click-me, .click-me-arrow {
     float: right;
     position: relative;
-    font-weight: 600;
-    color: #d2a1f2;
 }
 
 .click-me {
-    top: 4.5vh;
+    top: 25px;
     right: 45vw;
     font-size: 1.7em;
 }
@@ -301,7 +302,6 @@ nav {
     height: auto;
     width: 60%;
     text-align: center;
-    justify-content: center;
     background-color: #2b2a2c;
 }
 
