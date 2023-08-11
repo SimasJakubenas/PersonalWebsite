@@ -739,3 +739,75 @@ footer li a:focus {
 }
 
 /* =====    Media Queries     ================== */
+
+/* Screen size over 1400px */
+
+@media screen and (min-width: 1400px) {
+    html {
+        font-size: 1.2rem;
+    }
+
+    .work-icon-box {
+        transform: scale(1.1);
+    }
+}
+
+/* Screen size over 1650px */
+
+@media screen and (min-width: 1650px) {
+    html {
+        font-size: 1.5rem;
+    }
+
+    #menu li {
+        box-shadow: 5px 5px 5px #b438bc;
+    }
+
+    .work-icon-box {
+        transform: scale(1.3);
+    }
+}
+
+/* Screen size over 1920px */
+
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 1.7rem;
+    }
+
+    #menu li {
+        box-shadow: 5px 5px 5px #b438bc;
+        border-radius: 15px;
+    }
+    #menu li a {
+        padding: 5px;
+    }
+
+    .work-icon-box {
+        transform: scale(1.5);
+    }
+}
+
+/* Screen size over 2200px */
+
+@media screen and (min-width: 2200px) {
+    html {
+        font-size: 2rem;
+    }
+
+    .work-icon-box {
+        transform: scale(1.7);
+    }
+}
+
+/* Screen size over 2560px */
+
+@media screen and (min-width: 2560px) {
+    html {
+        font-size: 2.2rem;
+    }
+
+    .work-icon-box {
+        transform: scale(2);
+    }
+}
