@@ -28,7 +28,7 @@ body {
     padding: 15vh 0 7.5vh;
 }
 
-/* header */
+/* --------------------------------  Header  -------------- */
 
 header i {
     font-size: 5vh;
@@ -54,7 +54,7 @@ header ul {
     list-style: none;
 }
 
-/* navigation icons hover effect */
+/* Navigation Icons Styling */
 
 header li {
     transition: 0.2s ease-in-out;
@@ -84,12 +84,16 @@ header li:hover, header a:focus i {
     color: #e22881;
 }
 
-/* hero image */
+/* --------------------------------  Landing Page  -------- */
+
+/* Hero Image */
 
 #hero-image {
     width: 100%;
     height: 90vh;
-    background: url(../images/hero-image.jpeg) no-repeat center center, #161018;
+    background: 
+        url(../images/hero-image.jpeg) no-repeat center center, 
+        #161018;
     background-size: cover;
 }
 
@@ -99,7 +103,7 @@ header li:hover, header a:focus i {
     color: #d2a1f2;
 }
 
-/* greating message */
+/* Greating Message */
 
 #greating-container {
     width: 45vw;
@@ -132,19 +136,7 @@ header li:hover, header a:focus i {
         blink-caret .75s step-end infinite;
 }
 
-    /* The typing effect */
-@keyframes typing {
-    from { width: 30% }
-    to { width: 100% }
-  }
-  
-    /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #d2a1f2; }
-  }
-
-/* navigation links */
+/* --------------------------------  Navigation Links  ---- */
 
 nav {
     height: 10vh;
@@ -177,7 +169,7 @@ nav {
     color: #B0A8B9;
 }
 
-/* navigation link hover effect */
+/* Navigation Link Hover/Focus Effect */
 
 #menu a:hover, #menu a:focus {
     color: #b438bc;
@@ -192,7 +184,7 @@ nav {
     box-shadow: 3px 6px 3px #b438bc;
 }
 
-/* section styling */
+/* Section Styling */
 
 .section-bright {
     height: 100vh;
@@ -203,7 +195,7 @@ nav {
     color: rgb(24, 6, 39)
 }
 
-/* dark section styling */
+/* Dark Section Styling */
 
 .section-dark {
     background-color: #161018;
@@ -216,7 +208,7 @@ nav {
     color: #B0A8B9;
 }
 
-/* bio section */
+/* --------------------------------  Bio Section  --------- */
 
 .bio-content-box {
     position: relative;
@@ -233,7 +225,7 @@ nav {
     border-radius: 10px;
 }
 
-/* education section */
+/* --------------------------------  Education Section  --- */
 
 .education-container {
     margin-top: 10vh;
@@ -248,7 +240,7 @@ nav {
     transition: 0.3s ease-in-out;
 }
 
-/* education icons hover and focus effect */
+/* Education Icons Hover and Focus Effect */
 
 .education-container i:hover, .education-container a:focus i {
     transform: scale(1.1);
@@ -257,6 +249,8 @@ nav {
 .education-container a:focus {
     outline: none;
 }
+
+/* Click Me Arrows Styling */
 
 .click-me, .click-me-arrow {
     float: right;
@@ -276,16 +270,7 @@ nav {
     right: 51vw;
 }
 
-@keyframes arrow {
-    0%, 100% {
-        width: 0;
-    }
-    50% {
-        width: 4%;
-    }
-}
-
-/* education icon toggle */
+/* Education Icon Toggle */
 
 #ed-figure-container {
     position: relative;
@@ -328,7 +313,7 @@ nav {
     background-color: #2b2a2c;
 }
 
-/* skill section */
+/* --------------------------------  Skill Section  ------- */
 
 #skills-intro {
     padding: 0 50px;
@@ -337,7 +322,7 @@ nav {
     font-size: 1.5rem;
 }
 
-/* link to code institute */
+/* Link to Code Institute */
 
 #skills-intro a {
     text-decoration: none;
@@ -349,6 +334,8 @@ nav {
     text-decoration: underline;
     outline: none;
 }
+
+/* Coding Skills Bar */ 
 
 #coding-heading {
     margin-top: 30px;
@@ -398,7 +385,7 @@ nav {
     animation-iteration-count: infinite;
 }
 
-/* work experience section */
+/* --------------------------------  Work Experience Section  -- */
 
 #work-exp-container {
     display: flex;
@@ -420,7 +407,7 @@ nav {
     font-size: 1.5em;
 }
 
-/* work experience icons */
+/* Work Experience Icons */
 
 #work-icons-container {
     background-color: #161018;
@@ -463,7 +450,7 @@ nav {
     color: #d2a1f2;
 }
 
-/* work icons hover and focus effects */
+/* Work Experience Icons Hover and Focus Effects */
 
 .work-icon-box:hover {
     box-shadow: 5px 5px 15px #b438bc;
@@ -477,7 +464,7 @@ nav {
     color: #b438bc;
 }
 
-/* work icons pop-up text */
+/* Work Experience Icons Pop-up Text */
 
 .icon-text-fig {
     display: none;
@@ -509,6 +496,8 @@ nav {
     color: #b438bc;
 }
 
+/* Work Ecperience Icons Close Button */
+
 .icon-text-fig .close-button {
     position: relative;
     display: block;
@@ -532,6 +521,8 @@ nav {
     cursor: pointer;
 }
 
+/* Work Experience Icons Blurred Background */
+
 .icon-text-fig .close-button:before {
     left: 0;
     top: 0;
@@ -543,7 +534,7 @@ nav {
     cursor: default;
 }
 
-/* contact me */
+/* --------------------------------  Contact Me  ---------- */
 
 form {
     width: 80%;
@@ -614,7 +605,7 @@ button {
     border-left: none;
 }
 
-/* footer */
+/* --------------------------------  Footer  -------------- */
 
 footer {
     height: auto !important;
@@ -673,6 +664,8 @@ footer a {
     outline: none;
 }
 
+/* Go to Home Page Arrow Hover and Focus Effects*/
+
 #copyright i:hover, #copyright a:focus i {
     transform: scale(1.2);
 }
@@ -681,7 +674,7 @@ footer a {
     color: #b438bc;
 }
 
-/* footer links focus and hover effects */
+/* Footer Links Focus and Hover Effects */
 
 footer li a:hover {
     text-decoration: underline;
@@ -713,8 +706,37 @@ footer li a:focus {
 
 /* =====    animations     ===================== */
 
-/* code languages bar animations */
+/* The Typing Effect */
+@keyframes typing {
+    from {
+        width: 30%;
+    }
+    to {
+        width: 100%;
+    }
+}
+  
+/* The Typewriter Cursor Effect */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #d2a1f2;
+    }
+}
 
+/* Click Me Arrow */
+@keyframes arrow {
+    0%, 100% {
+        width: 0;
+    }
+    50% {
+        width: 4%;
+    }
+}
+
+/* Code Languages Bar Animations */
 @keyframes html {
     0% {
         width: 0%;
@@ -742,3 +764,5 @@ footer li a:focus {
         width: 85%;
     }
 }
+
+/* =====    Media Queries     ================== */
