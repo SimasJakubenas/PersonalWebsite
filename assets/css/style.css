@@ -28,6 +28,11 @@ body {
     padding: 15vh 0 7.5vh;
 }
 
+.highlight {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
 /* --------------------------------  Header  -------------- */
 
 header i {
@@ -384,11 +389,6 @@ nav {
 .work-exp-box {
     height: auto;
     padding-bottom: 20px;
-}
-
-.high-light {
-    font-size: 2em;
-    text-decoration: underline;
 }
 
 .work-exp-box p {
