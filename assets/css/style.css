@@ -548,7 +548,7 @@ input[type='radio'] {
 }
 
 form > input, textarea, button {
-    display:inline;
+    display: inline;
     width: 48%;
     line-height: 2em;
     padding: 0 3px;
@@ -670,26 +670,6 @@ footer li a:hover {
 
 footer li a:focus {
     outline: solid #d2a1f2;
-}
-
-#github {
-    color: #b438bc;
-}
-
-#facebook {
-    color: #4783eb;
-}
-
-#linkedin {
-    color: #5692fb;
-}
-
-#twitter {
-    color: #7ecef7;
-}
-
-#instagram {
-    color: #e22881;
 }
 
 /* =====    animations     ===================== */
