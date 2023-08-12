@@ -530,15 +530,15 @@ form {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 20px;
+    border: 0.1em solid black;
+    border-radius: 1.5em;
+    padding: 1.5em;
     background-color: #161018;
 }
 
 form div {
-    padding: 5px 15px;
-    margin-top: 3px;
+    padding: 0.6vh 0.8vw;
+    margin-top: 0.4vh;
 }
 
 form label {
@@ -552,18 +552,17 @@ input[type='radio'] {
 form > input, textarea, button {
     display: inline;
     width: 48%;
-    line-height: 2em;
-    padding: 0 3px;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    line-height: 5vh;
+    padding: 0 0.4vw;
+    margin-top: 1em;
 }
 
 form > input, textarea, button, form div {
     font-size: 1.5em;
-    border: 2px solid black;
+    border: 0.15em solid black;
     background-color: #2b2a2c;
     color: #B0A8B9;
-    border-radius: 5px;
+    border-radius: 0.35em;
 }
 
 textarea::placeholder,  form > input::placeholder {
@@ -574,7 +573,7 @@ textarea::placeholder,  form > input::placeholder {
 
 textarea {
     float: right;
-    border: 2px solid #d2a1f2;
+    border: 0.15em solid #d2a1f2;
 }
 
 button {
@@ -589,7 +588,7 @@ button {
     border-style: inset;
     color: #d2a1f2;
     background-color: #b438bc;
-    border: 4px groove #d2a1f2;
+    border: 0.2em groove #d2a1f2;
     outline: none;
     border-top: none;
     border-left: none;
