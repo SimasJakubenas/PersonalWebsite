@@ -46,7 +46,6 @@ header a {
 }
 
 header > div {
-    margin-left: 50px;
     margin: 2.5vh;
     float: left;
     position: fixed;
@@ -167,11 +166,11 @@ nav {
 }
 
 #menu li{
-    border-radius: 10px;
+    border-radius: 0.33em;
     margin: 2vh 1vh;
     text-decoration: none;
-    padding: 0 5px;
-    box-shadow: 3px 3px 3px #b438bc;
+    padding: 0 0.5vw;
+    box-shadow: 0.15em 0.15em 0.15em #b438bc;
 }
 
 #menu a {
@@ -752,10 +751,6 @@ footer li a:focus {
     html {
         font-size: 1.5rem;
     }
-
-    #menu li {
-        box-shadow: 5px 5px 5px #b438bc;
-    }
 }
 
 /* Screen size over 1920px */
@@ -763,14 +758,6 @@ footer li a:focus {
 @media screen and (min-width: 1920px) {
     html {
         font-size: 1.7rem;
-    }
-
-    #menu li {
-        box-shadow: 5px 5px 5px #b438bc;
-        border-radius: 15px;
-    }
-    #menu li a {
-        padding: 5px;
     }
 }
 
