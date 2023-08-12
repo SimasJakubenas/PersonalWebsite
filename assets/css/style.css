@@ -547,6 +547,9 @@ form label {
 
 input[type='radio'] {
     accent-color: #b438bc;
+    border: 0px;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 form > input, textarea, button {
