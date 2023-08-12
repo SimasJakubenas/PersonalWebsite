@@ -776,3 +776,26 @@ footer li a:hover, footer li a:focus  {
         font-size: 2.2rem;
     }
 }
+
+/* Screen size over 3000px */
+
+@media screen and (min-width: 3000px) {
+    html {
+        font-size: 2.5rem;
+    }
+}
+
+/* Screen size over 3500px */
+
+@media screen and (min-width: 3500px) {
+    html {
+        font-size: 2.8rem;
+    }
+}
+/* Screen size over 3840px */
+
+@media screen and (min-width: 3840px) {
+    html {
+        font-size: 3rem;
+    }
+}
