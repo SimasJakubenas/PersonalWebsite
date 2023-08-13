@@ -178,6 +178,14 @@ nav {
     color: #B0A8B9;
 }
 
+/* navigation menu icon */
+
+#menu_icon a {
+    display: none;
+    padding: 0 1vw;
+    transform: scale(1.2)
+}
+
 /* Navigation Link Hover/Focus Effect */
 
 #menu a:hover, #menu a:focus {
@@ -736,6 +744,19 @@ footer li a:hover, footer li a:focus  {
 }
 
 /* =====    Media Queries     ================== */
+
+/* Screen size bellow 1050px */
+
+@media screen and (max-width: 1050px) {
+   #menu li {
+        display: none;
+    }
+
+    #menu #menu_icon {
+      float: right;
+      display: block;
+    }
+}
 
 /* Screen size over 1400px */
 
