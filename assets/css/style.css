@@ -180,10 +180,8 @@ nav {
 
 /* navigation menu icon */
 
-#menu_icon a {
+#menu_icon {
     display: none;
-    padding: 0 1vw;
-    transform: scale(1.2)
 }
 
 /* Navigation Link Hover/Focus Effect */
@@ -753,9 +751,16 @@ footer li a:hover, footer li a:focus  {
     }
 
     #menu #menu_icon {
-      float: right;
-      display: block;
-    }
+        float: right;
+        display: block;
+        box-shadow: none;
+        padding: 0 0.5em;
+        margin: 0;
+      }
+  
+      #menu #menu_icon a {
+          font-size: 6vh;
+      }
 }
 
 /* Screen size over 1400px */
