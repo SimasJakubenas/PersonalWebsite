@@ -746,6 +746,26 @@ footer li a:hover, footer li a:focus  {
 /* Screen size bellow 1050px */
 
 @media screen and (max-width: 1050px) {
+    #greating-container {
+        right: 30vw;
+        top: 28vh;
+    }
+
+    #hero-image {
+        height: 100vh;
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    #type_animation {
+        width: 150%;
+    }
+
    #menu li {
         display: none;
     }
