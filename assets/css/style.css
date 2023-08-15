@@ -787,6 +787,14 @@ footer li a:hover, footer li a:focus  {
       #menu #menu_icon a {
           font-size: 6vh;
       }
+
+      .click-me {
+          right: 35vw;
+      }
+
+      .click-me-arrow {
+          right: 44vw;
+      }
 }
 
 /* Screen size over 1400px */
