@@ -119,11 +119,16 @@ header li:hover, header a:focus i {
     margin: 0;
 }
 
-#greating-container h1 {
+#greating-container h1, #greating-container span {
     font-size: 2.3em;
     font-family: Tektur, cursive;
     letter-spacing: .15em;
     margin: 0;
+    font-weight: bold;
+}
+
+#greating-container span {
+    display: block;
 }
 
 #greating-container h1:nth-child(1) {
@@ -131,7 +136,8 @@ header li:hover, header a:focus i {
 }
 
 #type_animation {
-    width: 120%;
+    display: inline-block;
+    width: 55%;
     max-width: fit-content;
 }
     
@@ -139,7 +145,7 @@ header li:hover, header a:focus i {
     overflow: hidden;
     border-right: .15em solid #d2a1f2;
     white-space: nowrap;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     animation: 
         typing 2.7s steps(40, end),
         blink-caret .75s step-end infinite;
@@ -685,7 +691,7 @@ footer li a:hover, footer li a:focus  {
 /* The Typing Effect */
 @keyframes typing {
     from {
-        width: 30%;
+        width: 0%;
     }
     to {
         width: 100%;
