@@ -153,7 +153,7 @@ header li:hover, header a:focus i {
 
 /* --------------------------------  Navigation Links  ---- */
 
-nav {
+#menu {
     height: 10vh;
     background-color: #161018;
     position: sticky;
@@ -162,7 +162,7 @@ nav {
     overflow: hidden;
 }
 
-#menu {
+#menu ul {
     float: right;
     display: flex;
     flex-direction: row;
