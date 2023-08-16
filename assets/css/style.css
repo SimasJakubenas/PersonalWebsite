@@ -799,6 +799,13 @@ footer li a:hover, footer li a:focus  {
           font-size: 6vh;
       }
 
+      .navbar.responsive li {
+        float: none;
+        display: block;
+        text-align: left;
+        box-shadow: none;
+      }
+
       .click-me {
           right: 35vw;
       }
