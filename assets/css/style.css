@@ -761,11 +761,23 @@ footer li a:hover, footer li a:focus  {
         height: 100vh;
     }
     
-    nav {
+    #menu {
         position: fixed;
         top: 0;
         right: 0;
         width: 100%;
+        height: auto;
+    }
+
+    #menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #menu ul li {
+        box-shadow: unset;
+        border-bottom: 0.15em;
+        border-color: #b438bc;
     }
 
     #type_animation {
@@ -777,11 +789,10 @@ footer li a:hover, footer li a:focus  {
     }
 
     #menu #menu_icon {
-        float: right;
         display: block;
-        box-shadow: none;
         padding: 0 0.5em;
         margin: 0;
+        text-align: end;
       }
   
       #menu #menu_icon a {
