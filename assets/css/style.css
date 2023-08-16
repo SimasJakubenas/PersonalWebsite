@@ -774,45 +774,46 @@ footer li a:hover, footer li a:focus  {
         width: 100%;
     }
 
-    #menu ul li {
+    #menu ul li:not(:first-child) {
         box-shadow: unset;
-        border-bottom: 0.15em;
-        border-color: #b438bc;
+        border-bottom: 0.05em solid #b438bc;
+        border-radius: 0;
     }
 
     #type_animation {
         width: 150%;
     }
 
-   #menu li {
+    .navbar li {
         display: none;
     }
 
     #menu #menu_icon {
         display: block;
+        box-shadow: none;
         padding: 0 0.5em;
         margin: 0;
         text-align: end;
-      }
+    }
   
       #menu #menu_icon a {
           font-size: 6vh;
-      }
+    }
 
-      .navbar.responsive li {
+    .navbar.responsive li {
         float: none;
         display: block;
         text-align: left;
         box-shadow: none;
-      }
-
+    }
+      
       .click-me {
           right: 35vw;
-      }
+    }
 
       .click-me-arrow {
           right: 44vw;
-      }
+    }
 }
 
 /* Screen size over 1400px */
