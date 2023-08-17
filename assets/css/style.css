@@ -812,6 +812,14 @@ footer li a:hover, footer li a:focus  {
     }
 }
 
+/* Screen size over 1051px */
+
+@media screen and (min-width: 1051px) {
+    .dropdown-menu {
+        display: flex !important;
+    }
+}
+
 /* Screen size over 1400px */
 
 @media screen and (min-width: 1400px) {
