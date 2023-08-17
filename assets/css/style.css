@@ -200,7 +200,8 @@ header li:hover, header a:focus i {
 /* Section Styling */
 
 .section-bright {
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     overflow: hidden;
 }
 
@@ -212,7 +213,8 @@ header li:hover, header a:focus i {
 
 .section-dark {
     background-color: #161018;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     overflow: hidden;
     position: relative;
 }
@@ -613,6 +615,7 @@ button {
 
 footer {
     height: auto !important;
+    min-height: fit-content !important;
 }
 
 footer h4 {
