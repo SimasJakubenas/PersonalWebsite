@@ -796,6 +796,15 @@ footer li a:hover, footer li a:focus  {
           font-size: 6vh;
     }
 
+    #menu ul.dropdown-menu {
+        display: none;
+    }
+
+    #menu ul.dropdown-menu li a {
+        display: block;
+        width: 100%;
+    }
+
       .click-me {
           right: 35vw;
     }
