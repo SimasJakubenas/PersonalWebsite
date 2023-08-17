@@ -186,7 +186,7 @@ header li:hover, header a:focus i {
 
 /* navigation menu icon */
 
-#menu_icon {
+#menu-icon {
     display: none;
 }
 
@@ -788,7 +788,7 @@ footer li a:hover, footer li a:focus  {
     #menu #menu-icon {
         display: block;
         box-shadow: none;
-        padding: 0 0.5em;
+        padding: 0.1em 0.5em;
         margin: 0;
         text-align: end;
         font-size: 6vh;
