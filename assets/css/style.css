@@ -767,6 +767,7 @@ footer li a:hover, footer li a:focus  {
         right: 0;
         width: 100%;
         height: auto;
+        min-height: 10vh;
     }
 
     #menu ul {
@@ -774,7 +775,7 @@ footer li a:hover, footer li a:focus  {
         width: 100%;
     }
 
-    #menu ul li:not(:first-child) {
+    #menu ul li {
         box-shadow: unset;
         border-bottom: 0.05em solid #b438bc;
         border-radius: 0;
@@ -784,16 +785,13 @@ footer li a:hover, footer li a:focus  {
         width: 150%;
     }
 
-    #menu #menu_icon {
+    #menu #menu-icon {
         display: block;
         box-shadow: none;
         padding: 0 0.5em;
         margin: 0;
         text-align: end;
-    }
-  
-      #menu #menu_icon a {
-          font-size: 6vh;
+        font-size: 6vh;
     }
 
     #menu ul.dropdown-menu {
