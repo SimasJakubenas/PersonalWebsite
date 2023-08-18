@@ -854,6 +854,15 @@ footer li a:hover, footer li a:focus  {
         padding: 0.3em 0.5em;
         margin-top: 0.3em;
     }
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-container input, textarea, button {
+        line-height: 1.5em;
+    }
 }
     /* Screen size bellow 1050px */
 
