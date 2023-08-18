@@ -752,6 +752,38 @@ footer li a:hover, footer li a:focus  {
 
 /* =====    Media Queries     ================== */
 
+/* Screen size bellow 850px */
+
+@media screen and (max-width: 850px) {
+    html {
+        font-size: 1.5em;
+    }
+
+    .click-me, .click-me-arrow {
+        display: none;
+    }
+
+    .education-container a i {
+        margin-left: 0;
+    }
+
+    .education-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #reveal-school:target, #reveal-institute:target {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #reveal-school figcaption, #reveal-institute figcaption{
+        width: 80%;
+        height: 30vh;
+        display: grid;
+        align-items: center;
+    }
+}
 /* Screen size bellow 1050px */
 
 @media screen and (max-width: 1050px) {
