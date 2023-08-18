@@ -263,13 +263,13 @@
         </div>
         <form method="POST" action="https://formdump.codeinstitute.net/">
             <h3 class="bright-text">Select the reason</h3>
-            <div>
+            <div id="radio-buttons-container">
                 <input id="job" type="radio" name="reason" value="job_offer" required tabindex="17" checked="checked">
                 <label for="job">Job Offer</label>
                 <input id="colab" type="radio" name="reason" value="collaboration" tabindex="17">
                 <label for="colab">Collaboration</label>
                 <input id="interest" type="radio" name="reason" value="common_interest" tabindex="17">
-                <label for="job">Common Interest</label>
+                <label for="interest">Common Interest</label>
             </div>
             <input type="text" name="name" placeholder="Name:" required tabindex="18">
             <textarea name="message" rows="5" placeholder="Message:" required tabindex="20"></textarea>

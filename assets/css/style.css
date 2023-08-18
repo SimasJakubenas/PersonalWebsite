@@ -550,7 +550,7 @@ form {
     background-color: #161018;
 }
 
-form div {
+#radio-buttons-container {
     padding: 0.6vh 0.8vw;
     margin-top: 0.4vh;
 }
@@ -574,7 +574,7 @@ form > input, textarea, button {
     margin-top: 1em;
 }
 
-form > input, textarea, button, form div {
+form > input, textarea, button, #radio-buttons-container {
     font-size: 1.5em;
     border: 0.15em solid black;
     background-color: #2b2a2c;
@@ -582,7 +582,7 @@ form > input, textarea, button, form div {
     border-radius: 0.35em;
 }
 
-textarea::placeholder,  form > input::placeholder {
+textarea::placeholder,  form .contact-me-half input::placeholder {
     color: #B0A8B9;
     opacity: 0.8;
     font-family: Barlow, sans-serif;
@@ -840,6 +840,11 @@ footer li a:hover, footer li a:focus  {
         content: "\A";
         white-space: pre;
         margin-bottom: 10px;
+    }
+
+    #radio-buttons-container {
+        padding: 0.3em 0.5em;
+        margin-top: 0.3em;
     }
 }
     /* Screen size bellow 1050px */
