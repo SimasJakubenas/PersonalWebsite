@@ -264,7 +264,7 @@ header li:hover, header a:focus i {
     transform: scale(1.1);
 }
 
-.education-container a:focus {
+.education-container > a:focus {
     outline: none;
 }
 
@@ -782,6 +782,39 @@ footer li a:hover, footer li a:focus  {
         height: 30vh;
         display: grid;
         align-items: center;
+    }
+
+    .education-container .close-button {
+        position: relative;
+    }
+
+    .education-container .close-button:after {
+        right: -84vw;
+        width: 2em;
+        height: 2em;
+        position: absolute;
+        display: flex;
+        z-index: 5;
+        align-items: center;
+        justify-content: center;
+        background-color: #2b2a2c;
+        border-radius: 50%;
+        border: 0.15em solid black;
+        color: #B0A8B9;
+        content: "X";
+        cursor: pointer;
+    }
+
+    #reveal-institute .close-button::after {
+        top: -33vh;
+    }
+
+    #reveal-school .close-button::after {
+        top: -18vh;
+    }
+
+    .education-container a.close-button:focus {
+        outline-color: #b438bc;
     }
 }
 /* Screen size bellow 1050px */
