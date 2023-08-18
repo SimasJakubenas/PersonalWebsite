@@ -545,7 +545,7 @@ form {
     margin: 0 auto;
     overflow: hidden;
     border: 0.1em solid black;
-    border-radius: 1.5em;
+    border-radius: 1em;
     padding: 1.5em;
     background-color: #161018;
 }
@@ -566,15 +566,20 @@ input[type='radio'] {
     height: 1.2rem;
 }
 
-form > input, textarea, button {
-    display: inline;
-    width: 48%;
-    line-height: 5vh;
-    padding: 0 0.4vw;
-    margin-top: 1em;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    grid-template-rows: 1fr 33% 1fr;
 }
 
-form > input, textarea, button, #radio-buttons-container {
+.grid-container input, textarea, button {
+    width: 95%;
+    padding: 0 0.4vw;
+    margin-top: 1em;
+    line-height: 0.5em;
+}
+
+.grid-container input, textarea, button, #radio-buttons-container {
     font-size: 1.5em;
     border: 0.15em solid black;
     background-color: #2b2a2c;
@@ -582,7 +587,7 @@ form > input, textarea, button, #radio-buttons-container {
     border-radius: 0.35em;
 }
 
-textarea::placeholder,  form .contact-me-half input::placeholder {
+textarea::placeholder,  .grid-container input::placeholder {
     color: #B0A8B9;
     opacity: 0.8;
     font-family: Barlow, sans-serif;
@@ -591,6 +596,7 @@ textarea::placeholder,  form .contact-me-half input::placeholder {
 textarea {
     float: right;
     border: 0.15em solid #d2a1f2;
+    padding-top: 0.5em;
 }
 
 button {
