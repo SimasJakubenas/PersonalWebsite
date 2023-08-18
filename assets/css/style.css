@@ -597,6 +597,8 @@ textarea {
     float: right;
     border: 0.15em solid #d2a1f2;
     padding-top: 0.5em;
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 4;
 }
 
 button {
