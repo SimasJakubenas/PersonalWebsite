@@ -759,6 +759,12 @@ footer li a:hover, footer li a:focus  {
         font-size: 1.5em;
     }
 
+    .bio-content-box {
+        width: 100%;
+        padding: 0 4vw;
+        text-indent: unset;
+    }
+
     .click-me, .click-me-arrow {
         display: none;
     }
@@ -777,7 +783,7 @@ footer li a:hover, footer li a:focus  {
         justify-content: center;
     }
 
-    #reveal-school figcaption, #reveal-institute figcaption{
+    #reveal-school figcaption, #reveal-institute figcaption {
         width: 80%;
         height: 30vh;
         display: grid;
@@ -816,8 +822,27 @@ footer li a:hover, footer li a:focus  {
     .education-container a.close-button:focus {
         outline-color: #b438bc;
     }
+
+    #coding-heading {
+        right: 0;
+        text-align: center;
+    }
+
+    #code-skill-container {
+        width: 80%;
+    }
+
+    #skills-intro {
+        text-indent: unset;
+    }
+
+    label:after {
+        content: "\A";
+        white-space: pre;
+        margin-bottom: 10px;
+    }
 }
-/* Screen size bellow 1050px */
+    /* Screen size bellow 1050px */
 
 @media screen and (max-width: 1050px) {
     #greating-container {
