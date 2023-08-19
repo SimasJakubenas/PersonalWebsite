@@ -853,6 +853,15 @@ footer li a:hover, footer li a:focus  {
         margin-bottom: 1.3em;
     }
 
+    #work-icons-container {
+        display: grid;
+        width: 40%;
+    }
+
+    .work-icon-box {
+        margin: 1em;
+    }
+
     label:after {
         content: "\A";
         white-space: pre;
