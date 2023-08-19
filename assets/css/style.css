@@ -203,6 +203,7 @@ header li:hover, header a:focus i {
     min-height: 100vh;
     height: auto;
     overflow: hidden;
+    padding-bottom: 10vh;
 }
 
 .dark-text {
@@ -217,6 +218,7 @@ header li:hover, header a:focus i {
     height: auto;
     overflow: hidden;
     position: relative;
+    padding-bottom: 10vh;
 }
 
 .bright-text {
@@ -624,6 +626,7 @@ button {
 footer {
     height: auto !important;
     min-height: fit-content !important;
+    padding-bottom: 0 !important;
 }
 
 footer h4 {
@@ -766,6 +769,12 @@ footer li a:hover, footer li a:focus  {
     html {
         font-size: 1.5em;
     }
+    
+    #greating-container {
+        font-size: 0.6em !important;
+        width: auto;
+        left: 10vh;
+    }
 
     .bio-content-box {
         width: 100%;
@@ -862,6 +871,10 @@ footer li a:hover, footer li a:focus  {
 
     .grid-container input, textarea, button {
         line-height: 1.5em;
+    }
+
+    footer {
+        font-size: 0.7em !important;
     }
 }
     /* Screen size bellow 1050px */
