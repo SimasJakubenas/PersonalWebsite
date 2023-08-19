@@ -424,6 +424,9 @@ header li:hover, header a:focus i {
     text-align: center;
     height: auto;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 0;
 }
 
 .work-icon-box {
@@ -434,20 +437,6 @@ header li:hover, header a:focus i {
     border-radius: 50%;
     background-color: #2b2a2c;
     box-shadow: 0.3em 0.3em 0.9em #d2a1f2;
-}
-
-#float-left-icon {
-    float: left;
-    margin: 4.5vh 4.5vw;
-}
-
-#float-right-icon {
-    float: right;
-    margin: 4.5vh 4.5vw;
-}
-
-#fit-center-icon {
-    margin: 4.5vh auto;
 }
 
 #work-icons-container i {
