@@ -402,7 +402,7 @@ header li:hover, header a:focus i {
 
 #work-exp-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .work-exp-box {
@@ -853,6 +853,17 @@ footer li a:hover, footer li a:focus  {
         text-indent: unset;
     }
 
+    #work-exp-container {
+        display: grid;
+    }
+    
+    .work-exp-box {
+        border: 0.15em dotted #d2a1f2;
+        border-radius: 1em;
+        padding: 1em 2em;
+        margin-bottom: 1.3em;
+    }
+
     label:after {
         content: "\A";
         white-space: pre;
@@ -877,7 +888,8 @@ footer li a:hover, footer li a:focus  {
         font-size: 0.7em !important;
     }
 }
-    /* Screen size bellow 1050px */
+
+/* Screen size bellow 1050px */
 
 @media screen and (max-width: 1050px) {
     #greating-container {
