@@ -430,10 +430,19 @@ header li:hover, header a:focus i {
     padding: 1em 0;
 }
 
-#work-icons-container span {
+.click-icon {
     font-size: 1.7em;
     color: #d2a1f2;
+}
+
+span.click-icon {
     display: none;
+}
+
+div.click-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
 }
 
 .work-icon-box {
@@ -938,8 +947,12 @@ footer li a:hover, footer li a:focus  {
         width: 40%;
     }
 
-    #work-icons-container span {
+    span.click-icon {
         display: contents;
+    }
+
+    div.click-icon {
+        display: none
     }
 
     .work-icon-box {
