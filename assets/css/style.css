@@ -913,6 +913,10 @@ footer li a:hover, footer li a:focus  {
         margin-bottom: 10px;
     }
 
+    .grid-container input, textarea, button {
+        width: 100%;
+    }
+
     #radio-buttons-container {
         padding: 0.3em 0.5em;
         margin-top: 0.3em;
