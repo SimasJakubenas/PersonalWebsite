@@ -862,6 +862,14 @@ footer li a:hover, footer li a:focus  {
         margin: 1em;
     }
 
+    .relative {
+        position: relative;
+    }
+
+    .icon-text-fig figcaption {
+        width: 80vw;
+    }
+
     label:after {
         content: "\A";
         white-space: pre;
