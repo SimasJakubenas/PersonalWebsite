@@ -236,7 +236,7 @@ header li:hover, header a:focus i {
 }
 
 #bio-picture {
-    height: 250px;
+    height: 40vh;
     float: left;
     margin-right: 20px;
     border-radius: 10px;
