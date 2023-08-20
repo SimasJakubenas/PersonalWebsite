@@ -771,6 +771,10 @@ footer li a:hover, footer li a:focus  {
         text-indent: unset;
     }
 
+    #bio .bio-content-box p {
+        font-size: 0.9em;
+    }
+
     .click-me, .click-me-arrow {
         display: none;
     }
@@ -839,6 +843,7 @@ footer li a:hover, footer li a:focus  {
 
     #skills-intro {
         text-indent: unset;
+        font-size: 1.3em;
     }
 
     #work-exp-container {
