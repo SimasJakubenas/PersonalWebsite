@@ -232,12 +232,13 @@ header li:hover, header a:focus i {
     width: 70%;
     margin: 0 auto;
     text-indent: 3em;
+    font-size: 1.5em;
 }
 
 #bio-picture {
     height: 40vh;
     float: left;
-    margin: 0 2em 2em 0;
+    margin: 0 1em 1em 0;
     border-radius: 10px;
 }
 
@@ -952,6 +953,10 @@ footer li a:hover, footer li a:focus  {
 @media screen and (max-width: 1000px) and (min-height: 1000px) {
     #greating-container h1, #greating-container span {
         font-size: 3em;
+    }
+
+    #bio-picture {
+        height: 30vh;
     }
 }
 
