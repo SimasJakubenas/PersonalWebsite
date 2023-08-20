@@ -343,13 +343,14 @@ header li:hover, header a:focus i {
 
 #skills-intro a {
     text-decoration: none;
-    color: #b438bc;
+    color: #2b2a2c;
     font-weight: 600;
 }
 
 #skills-intro a:hover, #skills-intro a:focus {
     text-decoration: underline;
     outline: none;
+    color: #b438bc;
 }
 
 /* Coding Skills Bar */ 
