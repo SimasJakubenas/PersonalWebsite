@@ -430,6 +430,12 @@ header li:hover, header a:focus i {
     padding: 1em 0;
 }
 
+#work-icons-container span {
+    font-size: 1.7em;
+    color: #d2a1f2;
+    display: none;
+}
+
 .work-icon-box {
     height: 6.15em;
     border: 0.2em solid black;
@@ -932,6 +938,10 @@ footer li a:hover, footer li a:focus  {
         width: 40%;
     }
 
+    #work-icons-container span {
+        display: contents;
+    }
+
     .work-icon-box {
         margin: 1em;
     }
@@ -942,6 +952,15 @@ footer li a:hover, footer li a:focus  {
 
     .icon-text-fig figcaption {
         width: 80vw;
+        top: 15vh;
+    }
+
+    .icon-text-fig .close-button:after {
+        top: 10vh;
+    }
+
+    .icon-text-fig figcaption:target {
+        top: -30vh;
     }
 
     label:after {
