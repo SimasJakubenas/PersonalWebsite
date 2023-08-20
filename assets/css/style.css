@@ -771,6 +771,18 @@ footer li a:hover, footer li a:focus  {
         display: flex;
         margin: 0 auto 1em;
     }
+
+    .work-exp-box {
+        padding: 1em !important;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    footer span {
+        font-size: 0.8em;
+    }
 }
 
 /* Screen size bellow 850px */
