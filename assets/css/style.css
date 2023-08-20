@@ -231,14 +231,13 @@ header li:hover, header a:focus i {
     position: relative;
     width: 70%;
     margin: 0 auto;
-    font-size: 1.5em;
     text-indent: 3em;
 }
 
 #bio-picture {
     height: 40vh;
     float: left;
-    margin-right: 20px;
+    margin: 0 2em 2em 0;
     border-radius: 10px;
 }
 
@@ -423,7 +422,7 @@ header li:hover, header a:focus i {
     width: 60%;
     text-align: center;
     height: auto;
-    margin: 0 auto;
+    margin: 5vh auto 0;
     display: flex;
     justify-content: space-evenly;
     padding: 1em 0;
