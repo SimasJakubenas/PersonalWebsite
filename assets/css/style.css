@@ -791,7 +791,6 @@ footer li a:hover, footer li a:focus  {
 
     #reveal-school figcaption, #reveal-institute figcaption {
         width: 80%;
-        height: 30vh;
         display: grid;
         align-items: center;
     }
@@ -818,11 +817,11 @@ footer li a:hover, footer li a:focus  {
     }
 
     #reveal-institute .close-button::after {
-        top: -33vh;
+        top: -5.8em;
     }
 
     #reveal-school .close-button::after {
-        top: -18vh;
+        top: -3.6em;
     }
 
     .education-container a.close-button:focus {
