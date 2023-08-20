@@ -841,8 +841,8 @@ footer li a:hover, footer li a:focus  {
         text-indent: unset;
     }
 
-    #bio .bio-content-box p {
-        font-size: 0.9em;
+    #bio .bio-content-box {
+        font-size: 1.3em;
     }
 
     .click-me, .click-me-arrow {
@@ -1056,6 +1056,10 @@ footer li a:hover, footer li a:focus  {
     .dropdown-menu {
         display: flex !important;
     }
+
+    .bio-content-box, #skills-intro {
+        font-size: 2em;
+    }
 }
 
 /* Screen size over 1200px */
@@ -1063,10 +1067,6 @@ footer li a:hover, footer li a:focus  {
 @media screen and (min-width: 1200px) {
     html body {
         font-size: 1.1em;
-    }
-
-    .bio-content-box p, #skills-intro {
-        font-size: 2em;
     }
 }
 
