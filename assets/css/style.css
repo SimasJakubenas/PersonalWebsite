@@ -799,11 +799,11 @@ footer li a:hover, footer li a:focus  {
 
 /* Screen size bellow 850px */
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850px), screen and (max-width: 1000px) and (min-height: 1000px) {
     html {
         font-size: 1.5rem;
     }
-    
+    dd
     #greating-container {
         font-size: 0.6em !important;
         width: auto;
@@ -945,6 +945,14 @@ footer li a:hover, footer li a:focus  {
 
     footer {
         font-size: 0.7em !important;
+    }
+}
+
+/* Screen size width lower than 1000px and height higher than 1000px (for higher definition tablets) */
+
+@media screen and (max-width: 1000px) and (min-height: 1000px) {
+    #greating-container h1, #greating-container span {
+        font-size: 3em;
     }
 }
 
