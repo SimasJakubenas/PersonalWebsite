@@ -597,7 +597,7 @@ button {
     font-size: 1.3em;
     font-weight: 900;
     text-transform: uppercase;
-    color: #b438bc;
+    color: #2b2a2c;
 }
 
  form button:hover,  form button:focus {
@@ -636,8 +636,33 @@ footer li {
     font-size: 1.2em;
 }
 
-footer a {
+footer ul li a {
     text-decoration: none;
+    color: #d2a1f2;
+    border-width: 0.15em;
+    border-style: solid;
+    border-radius: 1em;
+    padding: 0.2em 0.4em;
+}
+
+#github-footer:hover {
+    color: #b438bc;
+}
+
+#facebook-footer:hover {
+    color: #4783eb;
+}
+
+#linkedin-footer:hover {
+    color: #5692fb;
+}
+
+#twitter-footer:hover {
+    color: #7ecef7;
+}
+
+#instagram-footer:hover {
+    color: #e22881;
 }
 
 #copyright {
@@ -684,7 +709,6 @@ footer a {
 /* Footer Links Focus and Hover Effects */
 
 footer li a:hover, footer li a:focus  {
-    text-decoration: underline;
     outline: none;
     text-decoration-thickness: 0.1em;
 }
