@@ -803,7 +803,7 @@ footer li a:hover, footer li a:focus  {
     html {
         font-size: 1.5rem;
     }
-    dd
+    
     #greating-container {
         font-size: 0.6em !important;
         width: auto;
@@ -1026,6 +1026,18 @@ footer li a:hover, footer li a:focus  {
 @media screen and (min-width: 1051px) {
     .dropdown-menu {
         display: flex !important;
+    }
+}
+
+/* Screen size over 1200px */
+
+@media screen and (min-width: 1200px) {
+    html body {
+        font-size: 1.1em;
+    }
+
+    .bio-content-box p, #skills-intro {
+        font-size: 2em;
     }
 }
 
