@@ -752,11 +752,32 @@ footer li a:hover, footer li a:focus  {
 
 /* =====    Media Queries     ================== */
 
+/* Screen size bellow 650px */
+
+@media screen and (max-width: 650px) {
+    html {
+        font-size: 1.2rem !important;
+    }
+
+     section #greating-container {
+        right: 0 !important;
+        left: 0 !important;
+        padding: 0 5vw;
+        font-size: 0.9em !important;
+    }
+
+    #bio-picture {
+        float: none;
+        display: flex;
+        margin: 0 auto 1em;
+    }
+}
+
 /* Screen size bellow 850px */
 
 @media screen and (max-width: 850px) {
     html {
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
     
     #greating-container {
