@@ -835,6 +835,10 @@ footer li a:hover, footer li a:focus  {
     footer span {
         font-size: 0.8em;
     }
+
+    footer li {
+        margin: 0 1vw;
+    }
 }
 
 /* Screen size bellow 850px */
