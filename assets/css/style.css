@@ -696,7 +696,6 @@ footer ul li a {
 
 #copywright div {
     display: inline;
-    vertical-align: auto;
 }
 
 #copyright i {
@@ -1103,7 +1102,7 @@ footer li a:hover, footer li a:focus  {
     }
 
     .bio-content-box, #skills-intro {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 }
 
