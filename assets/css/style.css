@@ -239,7 +239,8 @@ header li:hover, header a:focus i {
     height: 40vh;
     float: left;
     margin: 0 1em 1em 0;
-    border-radius: 10px;
+    border-radius: 0.8em;
+    border: 0.1em solid #2b2a2c;   
 }
 
 /* --------------------------------  Education Section  --- */
