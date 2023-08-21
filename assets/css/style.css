@@ -791,6 +791,14 @@ footer li a:hover, footer li a:focus  {
 
 /* =====    Media Queries     ================== */
 
+/* Screen size bellow 350px */
+
+@media screen and (max-width: 350px) {
+    html body {
+        font-size: 0.6em !important;
+    }
+}
+
 /* Screen size bellow 450px */
 
 @media screen and (max-width: 450px) {
