@@ -435,7 +435,7 @@ header li:hover, header a:focus i {
     color: #d2a1f2;
 }
 
-span.click-icon {
+span.click-icon, #education .click-icon {
     display: none;
 }
 
@@ -864,6 +864,11 @@ footer li a:hover, footer li a:focus  {
         display: none;
     }
 
+    #education .click-icon {
+        display: flex;
+        justify-content: center;
+    }
+
     .education-container a i {
         margin-left: 0;
     }
@@ -1071,6 +1076,10 @@ footer li a:hover, footer li a:focus  {
     #menu ul.dropdown-menu li a {
         display: block;
         width: 100%;
+    }
+
+    #reveal-school:target {
+        padding-top: 27vh;
     }
 
       .click-me {
