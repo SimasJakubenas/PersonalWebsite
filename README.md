@@ -31,3 +31,79 @@ Due to suggestions from my mentor and me experimenting with the code I deviated 
 [Resume](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/48064440-651d-4ed3-bcfd-29aade43b3c6)
 
 [Contact Me](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/b3555f74-72a1-439d-b8c8-a50b8f4765b1)
+
+## Features
+
+A website is a one continuous page. It consists of 6 sections: home, bio, education, skills, work experience, contact me.
+
+The website has a favicon that is a picture of me.
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/24492a22-4d76-46eb-8fc3-bd2fce41e434)
+
+### Home section
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/1ae76529-6cd0-401e-bdee-8a8ed422f34b)
+
+Home section consists of:
+
+* Hero image
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/0c10ef54-269d-48be-ac53-a77035a88caa)
+
+* Social media links links stay fixed to the top of the screen.
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/44e52b13-e735-4e42-bcd4-aac22c24f588)
+
+    
+
+* A greating message that has a typing animation uppon loading the page and a continuous typewriter cursor effect animation.
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/bb6377e0-b08a-4492-92af-c31861ce8427)
+
+* A navigation bar that has two versions depending on user device.
+
+    Laptop or monitor version:
+
+    ![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/d137315d-7882-4475-8bc6-e4a7ddf2acca)
+
+    Phone or tablet version: 
+
+    * Unselected
+     ![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/99de1e13-48b6-499e-9092-f42dc6081c83) 
+    
+    * Selected
+    ![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/6f1d4647-b713-46da-b247-c5d615802b84)
+
+### Bio section
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/c78bc97b-6bba-4b54-b3f3-dd67f6f8cdad)
+
+Consists of my profile picture and some information about me and why I chose a new path in life.
+
+### Education section 
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/6866211c-b6ea-4b74-9ee9-41bb7466ff0c)
+
+Has an icon of a school and an icon of a mortarboard that uppon clicking reveal the school I went to and current education I'm recieving respectively:
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/2b5b58a8-1205-471a-b370-ef6c0dd07cf7)
+
+### Skills section
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/5e829a62-9111-4441-83a5-fa8bebff6fe4)
+
+Consists of description of the skill-set I will possess uppon graduation of my studies and an animation of the coding languages I've learned so far that shows my level of prolificacy in those languages based on my own judgement.
+
+### Work Experience section
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/e7bd98bd-f900-430a-a91a-dd444f09868a)
+
+Displays my work experience and 3 icons that uppon clicking them reveal real life skills I acquired in those positions:
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/59edf501-1d69-4186-b49f-2351f2133ff4)
+
+### Contact Me section
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/949ab566-4b04-4d97-9fa2-ec3b11bbb0ec)
+
+Contains a form an user can contact me with by filling in the details and pressing 'submit' button.
