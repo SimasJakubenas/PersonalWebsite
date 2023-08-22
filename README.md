@@ -128,3 +128,35 @@ These are accessibility features I was midful of during the coding process:
 * Using descriptive alt atributes for any pictures included.
 * Providing meaningful descriptions for screen readers where icons/links are used.
 * Ensuring adequate contrast between text and background across the website.
+
+## Technologies Used
+
+### Languages Used 
+
+HTML, CSS, jQuery (for menu only)
+
+### Frameworks, Libraries & Programs Used
+
+* Balsamiq - used to create wireframes.
+
+* Git - for version control.
+
+* Github - to save and store the files for the website.
+
+* Adobe Color - to create the colour palette for the site.
+
+* Google Fonts - to import the fonts used on the website.
+
+* Font Awesome - for the icons used on the website.
+
+* Google Dev Tools - to test progress, troubleshoot, identify responsiveness and styling issues. 
+
+* Tiny PNG - to compress images.
+
+* Birme - to compress images in the webp format.
+
+* Favicon.io - to create favicon.
+
+* Am I Responsive? - to show the website image on a range of devices.
+
+* Readme.so - to help me write README.
