@@ -137,29 +137,31 @@ HTML, CSS, jQuery (for menu only)
 
 ### Frameworks, Libraries & Programs Used
 
-* Balsamiq - used to create wireframes.
+* [Balsamiq](https://balsamiq.com/) - used to create wireframes.
 
-* Git - for version control.
+* [Git](https://git-scm.com/) - for version control.
 
-* Github - to save and store the files for the website.
+* [Github](https://github.com/) - to save and store the files for the website.
 
-* Adobe Color - to create the colour palette for the site.
+* [Adobe Color](https://color.adobe.com/create/color-wheel) - to create the colour palette for the site.
 
-* Google Fonts - to import the fonts used on the website.
+* [Google Fonts](https://fonts.google.com/) - to import the fonts used on the website.
 
-* Font Awesome - for the icons used on the website.
+* [jQuery](https://jquery.com/) - A JavaScript library.
 
-* Google Dev Tools - to test progress, troubleshoot, identify responsiveness and styling issues. 
+* [Font Awesome](https://fontawesome.com/) - for the icons used on the website.
 
-* Tiny PNG - to compress images.
+* [Google Developer Tools](https://developers.google.com/web/tools) - to test progress, troubleshoot, identify responsiveness and styling issues. 
 
-* Birme - to compress images in the webp format.
+* [TinyPNG](https://tinypng.com/) - to compress images.
 
-* Favicon.io - to create favicon.
+* [Birme](https://www.birme.net/) - to compress images in the webp format.
 
-* Am I Responsive? - to show the website image on a range of devices.
+* [Favicon.io](https://favicon.io/) - to create favicon.
 
-* Readme.so - to help me write README.
+* [Am I Responsive?](http://ami.responsivedesign.is/) - to show the website image on a range of devices.
+
+* [Readme.so](https://readme.so/) - to help me write README.git
 
 ## Deployment & Local Development
 
