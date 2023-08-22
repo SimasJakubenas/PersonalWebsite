@@ -160,3 +160,45 @@ HTML, CSS, jQuery (for menu only)
 * Am I Responsive? - to show the website image on a range of devices.
 
 * Readme.so - to help me write README.
+
+## Deployment & Local Development
+
+The site is deployed using GitHub Pages. Visit the deployed site [here.](https://simasjakubenas.github.io/PersonalWebsite/) To deploy using GitHub pages:
+
+1. Login/ Sign Up to GitHub.
+2. Open the [project repository](https://github.com/SimasJakubenas/PersonalWebsite).
+3. Click on "Settings" on the navigation bar under the repository title.
+
+    ![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/349a559a-a55f-4b74-8bee-0db57157728f)
+
+4. Click on "Pages" in the left hand navigation panel.
+
+    ![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/af48b04a-0bb3-4e57-9491-1003bb65ac0f)
+
+5. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+
+    ![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/64a39fde-d43b-4ed7-935a-0ff33b8380c3)
+
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
+8. Your URL will be displayed above "Source".
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [PersonalWebsite](https://github.com/SimasJakubenas/PersonalWebsite).
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [PersonalWebsite](https://github.com/SimasJakubenas/PersonalWebsite).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
