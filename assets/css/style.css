@@ -662,6 +662,26 @@ footer ul li a {
     padding: 0.2em 0.4em;
 }
 
+footer ul li a#github-footer {
+    border-color: #b438bc;
+}
+
+footer ul li a#facebook-footer {
+    border-color: #4783eb;
+}
+
+footer ul li a#linkedin-footer {
+    border-color: #5692fb;
+}
+
+footer ul li a#twitter-footer {
+    border-color: #7ecef7;
+}
+
+footer ul li a#instagram-footer {
+    border-color: #e22881;
+}
+
 #github-footer:hover {
     color: #b438bc;
 }
