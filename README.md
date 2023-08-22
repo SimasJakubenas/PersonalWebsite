@@ -107,3 +107,24 @@ Displays my work experience and 3 icons that uppon clicking them reveal real lif
 ![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/949ab566-4b04-4d97-9fa2-ec3b11bbb0ec)
 
 Contains a form an user can contact me with by filling in the details and pressing 'submit' button.
+
+### Footer
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/e6e3db02-46cf-4a3e-b82d-a2f771d52615)
+
+Has links to my social media profiles and a clickable arrow that brings the user to the top of the page.
+
+### Future Implementations
+
+* Portfolio section - showcase my projects.
+* My Interests section - a display of the type of things I'm most interested in.
+* Database for the Contact Me form.
+* Js and jQuery for navigation bar to keep the menu item selected that corresponds with the current location on the page.
+
+### Accessibility
+
+These are accessibility features I was midful of during the coding process:
+* Semantic HTML
+* Using descriptive alt atributes for any pictures included.
+* Providing meaningful descriptions for screen readers where icons/links are used.
+* Ensuring adequate contrast between text and background across the website.
