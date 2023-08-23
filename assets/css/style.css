@@ -33,8 +33,12 @@ body {
     text-decoration: underline;
 }
 
-li {
-    list-style-type: disc, circle, square;
+li li {
+    list-style-type: circle;
+}
+
+li li li {
+    list-style-type: square;
 }
 
 a {
