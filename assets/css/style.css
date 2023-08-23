@@ -37,6 +37,10 @@ li {
     list-style-type: disc, circle, square;
 }
 
+a {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 /* --------------------------------  Header  -------------- */
 
 header i {
