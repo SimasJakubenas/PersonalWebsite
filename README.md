@@ -214,3 +214,39 @@ To clone the repository:
 
 4. Change the current working directory in the terminal of your code editor to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+## Credits
+
+### Code used 
+
+[Typewriter Effect](https://css-tricks.com/snippets/css/typewriter-effect/) - modified version of this code was used for the greating message.
+
+[Drop Down Menu](https://www.tutorialrepublic.com/faq/hide-dropdown-menu-on-click-outside-of-the-element-in-jquery.php) - this jQuery was used for tablet/phone navigation menu where menu expands after pressing the menu icon and collapses after pressing anywhere else.
+
+[Animated Skills Bar](https://www.youtube.com/watch?v=IHQMOklyqXM) - simplified version of code in this tutorial was used to display confidence level of the languages I've learned so far in the Coding Languages Bar.
+
+[Radio Button Vertical Align](https://stackoverflow.com/questions/16644614/position-style-series-of-radio-buttons-vertically) - was used to align radio buttons vertically fir small screen sizes.
+
+[W3Schools](https://www.w3schools.com/) - was queried  for various pieces of information throughout the developing process.
+
+### Content 
+
+[Karina Finegan project](https://github.com/kairosity/milestone-project-1-cv-website/) - inspiration for projects design and layout was taken from Karina's project.
+
+[Kera Cudmores project](https://github.com/kera-cudmore/TheQuizArms/) - inspiration for README layout and contents taken from Kera's project.
+
+All other content for the website was written by myself.
+
+### Media 
+
+[Hero Image](https://www.pexels.com/photo/keys-in-dark-14553701/)
+
+### Acknowledgments
+
+I would like to acknowledge the following people:
+
+* My family and friends for being understanding while I was absent from their lives whilst I was working on this project.
+
+* My mentor Medale Oluwafemi for giving me advice and guidance. Thank you for taking me towards the boundary of limitations of my current skill level and pursuading me to overcome it by aquiring new knowledge.
+
+* Code Institute Tutor Support for a swift responce to my query.
