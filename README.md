@@ -36,6 +36,9 @@ Simas's Personal Website is my first milestone project for Code Institute. This 
   * [Local Development](#local-development)
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
+* [Testing](#testing)
+  * [Solved Bugs](#solved-bugs)
+  * [Known Bugs](#known-bugs)
 * [Credits](#credits)
   * [Code used](#code-used)
   * [Content](#content)
@@ -269,6 +272,25 @@ To clone the repository:
 
 4. Change the current working directory in the terminal of your code editor to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+## Testing
+
+Please refer to [TESTING.md](TESTING.md) for all testing carried out.
+
+### Solved Bugs
+
+| No | Bug | How I solved the issue |
+| :--- | :--- | :--- |
+| 1 | Initialy I had a hidden div with :target pseudo class to display a pop up text for 'Education' section however it was distorting the sections dimentions and was behaving inconsistently if clicked while the screen was focused on different location of the site. | I used figure and figcaption elements akin those in 'Work Experience' section instead. |
+| 2 | Due to limitations to CSS I couldn't get the menu for tablet and phone screens to behave the way I wanted. | I had to research other solutions and I settled for jQuery that I used within head element of HTML. |
+| 3 | The way I had structured the form elements inputs prevented me from from having the order I desired for smaller screen devices. | I had to research how to make grid templates and apply it to the form element. |
+| 4 | All anchor elements targeting figcaptions to display text would have the website scroll to the top of page. | Fixed by setting relative position to corresponding section. |
+
+### Known Bugs
+
+| No | Bug |
+| :-- | :-- |
+| 1 | When clicked on the school icon in 'Education' section the figcaption backdrop doesnt cover some parts of the website. Other icons doesn't have this issue. I removed the 'blurry background' effect from 'Education' section to hide this fact. I haven't been able to figure out why this is happening.
 
 ## Credits
 
