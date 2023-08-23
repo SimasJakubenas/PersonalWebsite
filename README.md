@@ -6,6 +6,37 @@ Simas's Personal Website is my first milestone project for Code Institute. This 
 
 [View My GitHub Profile Here](https://simasjakubenas.github.io/PersonalWebsite/)
 
+## Contents
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Wireframes](#wireframes)
+
+* [Features](#features)
+  * [Home section](#home-section)
+  * [Bio section](#bio-section)
+  * [Education ection](#education-section)
+  * [Bio section](#bio-section)
+  * [Skills section](#skills-section)
+  * [Work Experience section](#work-experience-section)
+  * [Contact Me section](#contact-me-section)
+  * [Footer](#footer)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+* [Technologies Used](#technologies-used)
+  * [Languages used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+* [Deployment & Local Development](#deployment--local-development)
+  * [To deploy using GitHub pages](#to-deploy-using-github-pages)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+* [Credits](#credits)
+  * [Code used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
 
 ## Design
 

@@ -33,6 +33,10 @@ body {
     text-decoration: underline;
 }
 
+li {
+    list-style-type: disc, circle, square;
+}
+
 /* --------------------------------  Header  -------------- */
 
 header i {
