@@ -8,6 +8,10 @@ Simas's Personal Website is my first milestone project for Code Institute. This 
 
 ## Contents
 
+* [User Experience (UX)](#user-experience-ux)
+  * [Project Developer Goals](#project-developer-goals)
+  * [First Time Visitor Goals](#first-time-visitor-goals)
+  * [Returning Visitor Goals](#returning-visitor-goals)
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
@@ -37,6 +41,27 @@ Simas's Personal Website is my first milestone project for Code Institute. This 
   * [Content](#content)
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
+  
+## User Experience (UX)
+
+### Project Developer Goals
+
+My goal is to display my work and skill level for potential employer, someone wishing to collaborate on future projects or simply reach out and chat about a shared interest ('My Interests' section will be added in future updates).
+
+### First Time Visitor Goals
+
+* I want to immediately understand the purpose of the website.
+* I want to be able to navigate the website effortlessly uppon first visit.
+* I want to be able to find the information I'm looking for easily.
+* I want to be able to view other projects from this website developer.
+* I want to be able to visit the developer's GitHub account to observe the level of activity there and quality of the code on their other projects.
+* I want to be able to contact the developer of this website if I wish to do so.
+* I want the website to be responsive to the device I'm using.
+
+### Returning Visitor Goals
+
+* I want to see if there are new projects in developer's portfolio.
+* I want to see if theres new additions to developer's GitHub account.
 
 ## Design
 
@@ -45,7 +70,6 @@ Simas's Personal Website is my first milestone project for Code Institute. This 
 I went for a dark themed website as it is easier on the eye. I also wanted to separate the sections by adding contrast via alternating between dark and  brighter backgrounds. So I came up with a custom palette.
 
 ![color-palette](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/7a1a9671-c97d-4bbc-977e-8ce3edaec12e)
-
 
 ### Typography
 
