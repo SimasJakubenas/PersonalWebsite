@@ -4,7 +4,7 @@ Simas's Personal Website is my first milestone project for Code Institute. This 
 
 ![amiresponsive-picture](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/039e3269-b96f-4364-a6f8-96d642fbb079)
 
-[View My GitHub Profile Here](https://simasjakubenas.github.io/PersonalWebsite/)
+View the deployed [website](https://simasjakubenas.github.io/PersonalWebsite/)
 
 ## Contents
 
@@ -186,6 +186,7 @@ These are accessibility features I was midful of during the coding process:
 * Using descriptive alt attributes for any pictures included.
 * Providing meaningful descriptions for screen readers where icons/links are used.
 * Ensuring adequate contrast between text and background across the website.
+* I had to use 'tabindex' to make sure that all the features are accessible with keyboad, however that lowered the accessibility score on 'lighthouse'.
 
 ## Technologies Used
 
@@ -219,7 +220,15 @@ HTML, CSS, jQuery (for menu only)
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) - to show the website image on a range of devices.
 
-* [Readme.so](https://readme.so/) - to help me write README.git
+* [Readme.so](https://readme.so/) - to help me write README.md.
+
+* [W3 Validator](https://validator.w3.org/) - to validate HTML.
+
+* [W3 Validator for CSS](https://jigsaw.w3.org/css-validator/) - to validate CSS.
+
+* [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns) - to learn about grid template.
+
+
 
 ## Deployment & Local Development
 
