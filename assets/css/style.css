@@ -586,20 +586,20 @@ input[type='radio'] {
     height: 1.2rem;
 }
 
-.grid-container {
+.form-grid-container {
     display: grid;
     grid-template-columns: 1fr 50%;
     grid-template-rows: 1fr 33% 1fr;
 }
 
-.grid-container input, textarea, button {
+.form-grid-container input, textarea, button {
     width: 95%;
     padding: 0 0.4vw;
     margin-top: 1em;
     line-height: 0.5em;
 }
 
-.grid-container input, textarea, button, #radio-buttons-container {
+.form-grid-container input, textarea, button, #radio-buttons-container {
     font-size: 1.5em;
     border: 0.15em solid black;
     background-color: #2b2a2c;
@@ -607,7 +607,7 @@ input[type='radio'] {
     border-radius: 0.35em;
 }
 
-textarea::placeholder,  .grid-container input::placeholder {
+textarea::placeholder,  .form-grid-container input::placeholder {
     color: #B0A8B9;
     opacity: 0.8;
     font-family: Barlow, sans-serif;
@@ -1031,7 +1031,7 @@ footer li a:hover, footer li a:focus  {
         margin-bottom: 10px;
     }
 
-    .grid-container input, textarea, button {
+    .form-grid-container input, textarea, button {
         width: 100%;
     }
 
@@ -1040,12 +1040,12 @@ footer li a:hover, footer li a:focus  {
         margin-top: 0.3em;
     }
 
-    .grid-container {
+    .form-grid-container {
         display: flex;
         flex-direction: column;
     }
 
-    .grid-container input, textarea, button {
+    .form-grid-container input, textarea, button {
         line-height: 1.5em;
     }
 
