@@ -258,13 +258,27 @@ header li:hover, header a:focus i {
 /* --------------------------------  Education Section  --- */
 
 .education-container {
-    margin-top: 10vh;
-    display: grid;
+    margin-top: 17vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.education-container i {
+.education-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.education-icon {
+    display: flex;
+    align-items: center;
     color: #d2a1f2;
     font-size: 4em;
+    margin-right: 0.7em;
+}
+
+.education-text {
+    font-size: 2em;
 }
 
 /* Education container Hover Effect */
