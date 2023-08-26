@@ -259,89 +259,15 @@ header li:hover, header a:focus i {
 
 .education-container {
     margin-top: 10vh;
+    display: grid;
 }
 
 .education-container i {
     color: #d2a1f2;
     font-size: 4em;
-    position: relative;
-    padding-top: 2vh;
 }
 
-.education-container a i {
-    margin-left: 20%;
-    transition: 0.3s ease-in-out;
-}
-
-/* Education Icons Hover and Focus Effect */
-
-.education-container i:hover, .education-container a:focus i {
-    transform: scale(1.1);
-}
-
-.education-container > a:focus {
-    outline: none;
-}
-
-/* Click Me Arrows Styling */
-
-.click-me, .click-me-arrow {
-    float: right;
-    position: relative;
-}
-
-.click-me {
-    padding-top: 3.7vh;
-    right: 45vw;
-    font-size: 1.7em;
-}
-
-.click-me-arrow {
-    animation: 4s arrow infinite;
-    right: 51vw;
-}
-
-/* Education Icon Toggle */
-
-#ed-figure-container {
-    position: relative;
-}
-
-#reveal-school, #reveal-institute {
-    display: none;
-    font-size: 1.3em;
-}
-
-#reveal-school:target, #reveal-institute:target {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 65%;
-    height: 110%;
-    display: flex;
-}
-
-#reveal-school:target {
-    padding-top: 20vh;
-    align-items: center;
-    top: -3vh;
-}
-
-#reveal-institute:target {
-    align-items: flex-end;
-    padding-top: 5vh;
-    top: -6vh;
-}
-
-#reveal-school figcaption, #reveal-institute figcaption {
-    border: 0.15em solid #b438bc;
-    border-radius: 0.5em;
-    padding: 1.5vh 0;
-    height: auto;
-    width: 60%;
-    text-align: center;
-    background-color: #2b2a2c;
-}
+/* Education container Hover Effect */
 
 /* --------------------------------  Skill Section  ------- */
 
@@ -448,7 +374,7 @@ header li:hover, header a:focus i {
     color: #d2a1f2;
 }
 
-span.click-icon, #education .click-icon {
+span.click-icon {
     display: none;
 }
 
@@ -904,67 +830,12 @@ footer li a:hover, footer li a:focus  {
         font-size: 1.3em;
     }
 
-    .click-me, .click-me-arrow {
-        display: none;
-    }
-
-    #education .click-icon {
-        display: flex;
-        justify-content: center;
-    }
-
-    .education-container a i {
-        margin-left: 0;
-    }
-
     .education-container {
         display: flex;
         justify-content: center;
     }
 
-    #reveal-school:target, #reveal-institute:target {
-        width: 100%;
-        justify-content: center;
-    }
-
-    #reveal-school figcaption, #reveal-institute figcaption {
-        width: 80%;
-        display: grid;
-        align-items: center;
-    }
-
-    .education-container .close-button {
-        position: relative;
-    }
-
-    .education-container .close-button:after {
-        right: -84vw;
-        width: 2em;
-        height: 2em;
-        position: absolute;
-        display: flex;
-        z-index: 5;
-        align-items: center;
-        justify-content: center;
-        background-color: #2b2a2c;
-        border-radius: 50%;
-        border: 0.15em solid black;
-        color: #B0A8B9;
-        content: "X";
-        cursor: pointer;
-    }
-
-    #reveal-institute .close-button::after {
-        top: -5.8em;
-    }
-
-    #reveal-school .close-button::after {
-        top: -3.6em;
-    }
-
-    .education-container a.close-button:focus {
-        outline-color: #b438bc;
-    }
+    
 
     #coding-heading {
         right: 0;
