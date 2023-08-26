@@ -264,9 +264,18 @@ header li:hover, header a:focus i {
     justify-content: space-evenly;
 }
 
+.education-container-border {
+    padding: 0.3em;
+    
+}
+
 .education-wrapper {
     display: flex;
     flex-direction: row;
+    border-radius: 1.5em;
+    padding: 1em 1.5em;
+    background-color: #161018;
+    
 }
 
 .education-icon {
@@ -281,7 +290,19 @@ header li:hover, header a:focus i {
     font-size: 2em;
 }
 
-/* Education container Hover Effect */
+/* Education-wrapper Hover Effect */
+/* Gives illusion of muving border effect */
+.education-container-border:hover {
+    background: linear-gradient(90deg,
+        #161018 70%,
+        #b438bc 80%,
+        #161018 90%);
+    border-radius: 1.5em;
+    animation: 2s border-effect linear infinite;
+    animation-direction: 50deg;
+    padding: 0.3em;
+    background-size: 200% 200%;
+}
 
 /* --------------------------------  Skill Section  ------- */
 
@@ -720,6 +741,14 @@ footer li a:hover, footer li a:focus  {
     }
     50% {
         border-color: #d2a1f2;
+    }
+}
+
+/* Education section animated border effect */
+/* inspired by 'Fd Web design' youtube tutorial https://www.youtube.com/watch?v=7rE4VMtbY9E&t=145s */
+@keyframes border-effect {
+    50% {
+        background-position-x: 200%;
     }
 }
 
