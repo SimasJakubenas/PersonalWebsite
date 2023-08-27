@@ -265,8 +265,16 @@ header li:hover, header a:focus i {
 }
 
 .education-container-border {
+    background: linear-gradient(90deg,
+        #161018 70%,
+        #b438bc 80%,
+        #161018 90%);
+    border-radius: 1.5em;
+    animation: 2s border-effect linear infinite;
+    background-size: 200% 200%;
     padding: 0.3em;
-    
+    visibility: hidden;
+    z-index: 5;
 }
 
 .education-wrapper {
@@ -275,7 +283,7 @@ header li:hover, header a:focus i {
     border-radius: 1.5em;
     padding: 1em 1.5em;
     background-color: #161018;
-    
+    visibility: visible !important;
 }
 
 .education-icon {
@@ -293,15 +301,7 @@ header li:hover, header a:focus i {
 /* Education-wrapper Hover Effect */
 /* Gives illusion of muving border effect */
 .education-container-border:hover {
-    background: linear-gradient(90deg,
-        #161018 70%,
-        #b438bc 80%,
-        #161018 90%);
-    border-radius: 1.5em;
-    animation: 2s border-effect linear infinite;
-    animation-direction: 50deg;
-    padding: 0.3em;
-    background-size: 200% 200%;
+    visibility: visible;
 }
 
 /* --------------------------------  Skill Section  ------- */
@@ -811,6 +811,21 @@ footer li a:hover, footer li a:focus  {
     header ul li {
         margin-right: 0.5em;
     }
+
+    .education-wrapper {
+        display: grid;
+        justify-items: center;
+        padding: 1em;
+    }
+    
+    .education-icon {
+        padding-bottom: 0.4em;
+    }
+
+    .education-container-border {
+
+    }
+    
 }
 
 /* Screen size bellow 650px */
@@ -873,13 +888,6 @@ footer li a:hover, footer li a:focus  {
         font-size: 1.3em;
     }
 
-    .education-container {
-        display: flex;
-        justify-content: center;
-    }
-
-    
-
     #coding-heading {
         right: 0;
         text-align: center;
@@ -887,6 +895,14 @@ footer li a:hover, footer li a:focus  {
 
     #code-skill-container {
         width: 80%;
+    }
+
+    .education-container {
+        font-size: 0.7em;
+    }
+
+    .education-container-border {
+        visibility: visible;
     }
 
     #skills-intro {
@@ -978,6 +994,10 @@ footer li a:hover, footer li a:focus  {
     #bio-picture {
         height: 30vh;
     }
+
+    .education-container-border {
+        margin-bottom: 5vh;
+    }
 }
 
 /* Screen size bellow 1050px */
@@ -1036,16 +1056,14 @@ footer li a:hover, footer li a:focus  {
         width: 100%;
     }
 
-    #reveal-school:target {
-        padding-top: 27vh;
+    .education-container {
+        display: grid;
+        justify-content: center;
+        margin-top: 10vh;
     }
 
-      .click-me {
-          right: 35vw;
-    }
-
-      .click-me-arrow {
-          right: 44vw;
+    .education-container-border {
+        margin-bottom: 5vh;
     }
 }
 
