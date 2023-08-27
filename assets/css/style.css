@@ -45,6 +45,10 @@ a {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.relative {
+    position: relative;
+}
+
 /* --------------------------------  Header  -------------- */
 
 header i {
@@ -229,7 +233,7 @@ header li:hover, header a:focus i {
     min-height: 100vh;
     height: auto;
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
     padding-bottom: 10vh;
 }
 
@@ -329,12 +333,16 @@ header li:hover, header a:focus i {
 
 /* Coding Skills Bar */ 
 
-#coding-heading {
+#coding-heading, #life-skills {
     margin-top: 2.8vh;
     margin-bottom: 1.4vh;
     position: relative;
-    right: -25%;
     font-size: 2em;
+    text-align: center;
+}
+
+#life-skills {
+    margin: 10vh 0;
 }
 
 #code-skill-container {
@@ -465,6 +473,7 @@ div.click-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .icon-text-fig figcaption {
@@ -888,7 +897,7 @@ footer li a:hover, footer li a:focus  {
         font-size: 1.3em;
     }
 
-    #coding-heading {
+    #coding-heading, #life-skills {
         right: 0;
         text-align: center;
     }
