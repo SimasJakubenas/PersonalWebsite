@@ -310,7 +310,7 @@ header li:hover, header a:focus i {
 
 /* --------------------------------  Skill Section  ------- */
 
-#skills-intro {
+.skills-section-text {
     padding: 0 4vw;
     text-indent: 3rem;
     margin-bottom: 3.5vh;
@@ -319,13 +319,13 @@ header li:hover, header a:focus i {
 
 /* Link to Code Institute */
 
-#skills-intro a {
+.skills-section-text a {
     text-decoration: none;
     color: #2b2a2c;
     font-weight: 600;
 }
 
-#skills-intro a:hover, #skills-intro a:focus {
+.skills-section-text a:hover, .skills-section-text a:focus {
     text-decoration: underline;
     outline: none;
     color: #b438bc;
@@ -334,15 +334,10 @@ header li:hover, header a:focus i {
 /* Coding Skills Bar */ 
 
 #coding-heading, #life-skills {
-    margin-top: 2.8vh;
-    margin-bottom: 1.4vh;
+    margin: 10vh 0;
     position: relative;
     font-size: 2em;
     text-align: center;
-}
-
-#life-skills {
-    margin: 10vh 0;
 }
 
 #code-skill-container {
@@ -484,6 +479,8 @@ div.click-icon {
     padding: 2vh;
     text-align: center;
     background-color: #2b2a2c;
+    top: 15vh;
+    color: #B0A8B9;
 }
 
 .icon-text-fig figcaption strong {
@@ -495,6 +492,7 @@ div.click-icon {
 .icon-text-fig .close-button {
     position: relative;
     display: block;
+    top: 15vh;
 }
 
 .icon-text-fig .close-button:after {
@@ -829,12 +827,7 @@ footer li a:hover, footer li a:focus  {
     
     .education-icon {
         padding-bottom: 0.4em;
-    }
-
-    .education-container-border {
-
-    }
-    
+    }    
 }
 
 /* Screen size bellow 650px */
@@ -897,11 +890,6 @@ footer li a:hover, footer li a:focus  {
         font-size: 1.3em;
     }
 
-    #coding-heading, #life-skills {
-        right: 0;
-        text-align: center;
-    }
-
     #code-skill-container {
         width: 80%;
     }
@@ -914,9 +902,17 @@ footer li a:hover, footer li a:focus  {
         visibility: visible;
     }
 
-    #skills-intro {
+    .skills-section-text {
         text-indent: unset;
         font-size: 1.3em;
+    }
+
+    .icon-text-fig figcaption {
+        top: 0;
+    }
+
+    .icon-text-fig .close-button {
+        top: 2vh;
     }
 
     #work-exp-container {
@@ -1083,7 +1079,7 @@ footer li a:hover, footer li a:focus  {
         display: flex !important;
     }
 
-    .bio-content-box, #skills-intro {
+    .bio-content-box, .skills-section-text {
         font-size: 1.6em;
     }
 }
