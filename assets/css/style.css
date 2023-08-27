@@ -893,12 +893,22 @@ footer li a:hover, footer li a:focus  {
         font-size: 1.3em;
     }
 
-    .icon-text-fig figcaption {
-        top: 0;
+    #skills-icons-container {
+        display: grid;
+        width: 40%;
     }
 
-    .icon-text-fig .close-button {
-        top: 2vh;
+    .skills-icon-box {
+        margin: 1em;
+    }
+
+    .icon-text-fig figcaption {
+        width: 80vw;
+        top: 15vh;
+    }
+
+    .icon-text-fig figcaption:target {
+        top: -30vh;
     }
 
     #work-exp-container {
@@ -910,40 +920,6 @@ footer li a:hover, footer li a:focus  {
         border-radius: 1em;
         padding: 1em 2em;
         margin-bottom: 1.3em;
-    }
-
-    #skills-icons-container {
-        display: grid;
-        width: 40%;
-    }
-
-    span.click-icon {
-        display: contents;
-    }
-
-    div.click-icon {
-        display: none
-    }
-
-    .skills-icon-box {
-        margin: 1em;
-    }
-
-    .relative {
-        position: relative;
-    }
-
-    .icon-text-fig figcaption {
-        width: 80vw;
-        top: 15vh;
-    }
-
-    .icon-text-fig .close-button:after {
-        top: 10vh;
-    }
-
-    .icon-text-fig figcaption:target {
-        top: -30vh;
     }
 
     label:after {
