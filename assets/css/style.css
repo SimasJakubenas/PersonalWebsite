@@ -268,6 +268,7 @@ header li:hover, header a:focus i {
     justify-content: space-evenly;
 }
 
+/* Gives illusion of muving border effect */
 .education-container-border {
     background: linear-gradient(90deg,
         #161018 70%,
@@ -303,7 +304,7 @@ header li:hover, header a:focus i {
 }
 
 /* Education-wrapper Hover Effect */
-/* Gives illusion of muving border effect */
+
 .education-container-border:hover {
     visibility: visible;
 }
@@ -376,25 +377,9 @@ header li:hover, header a:focus i {
     animation: 4.5s css-skill infinite;
 }
 
-/* --------------------------------  Work Experience Section  -- */
+/* Real Life SKills Icons */
 
-#work-exp-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.work-exp-box {
-    height: auto;
-    padding-bottom: 3vh;
-}
-
-.work-exp-box p {
-    font-size: 1.5em;
-}
-
-/* Work Experience Icons */
-
-#work-icons-container {
+#skills-icons-container {
     background-color: #161018;
     border: 0.4vh dashed #d2a1f2;
     border-radius: 1.5em;
@@ -407,22 +392,7 @@ header li:hover, header a:focus i {
     padding: 1em 0;
 }
 
-.click-icon {
-    font-size: 1.7em;
-    color: #d2a1f2;
-}
-
-span.click-icon {
-    display: none;
-}
-
-div.click-icon {
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-}
-
-.work-icon-box {
+.skills-icon-box {
     height: 6.15em;
     border: 0.2em solid black;
     width: 6.15em;
@@ -432,27 +402,27 @@ div.click-icon {
     box-shadow: 0.3em 0.3em 0.9em #d2a1f2;
 }
 
-#work-icons-container i {
+#skills-icons-container i {
     font-size: 4.75em;
     text-align: center;
     color: #d2a1f2;
 }
 
-/* Work Experience Icons Hover and Focus Effects */
+/* Real Life SKills Icons Hover and Focus Effects */
 
-.work-icon-box:hover {
+.skills-icon-box:hover {
     box-shadow: 0.3em 0.3em 0.9em #b438bc;
 }
 
-.work-icon-box a:focus {
+.skills-icon-box a:focus {
     outline: none;
 }
 
-#work-icons-container a:focus i, #work-icons-container a:hover i {
+#skills-icons-container a:focus i, #skills-icons-container a:hover i {
     color: #b438bc;
 }
 
-/* Work Experience Icons Pop-up Text */
+/* Real Life SKills Icons Pop-up Text */
 
 .icon-text-fig {
     display: none;
@@ -487,7 +457,7 @@ div.click-icon {
     color: #b438bc;
 }
 
-/* Work Ecperience Icons Close Button */
+/* Real Life SKills Icons Close Button */
 
 .icon-text-fig .close-button {
     position: relative;
@@ -513,7 +483,7 @@ div.click-icon {
     cursor: pointer;
 }
 
-/* Work Experience Icons Blurred Background */
+/* Real Life SKills Icons Blurred Background */
 
 .icon-text-fig .close-button:before {
     left: 0;
@@ -524,6 +494,22 @@ div.click-icon {
     background-color: rgba(0, 0, 0, 0.7);
     content: "";
     cursor: default;
+}
+
+/* --------------------------------  Work Experience Section  -- */
+
+#work-exp-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-exp-box {
+    height: auto;
+    padding-bottom: 3vh;
+}
+
+.work-exp-box p {
+    font-size: 1.5em;
 }
 
 /* --------------------------------  Contact Me  ---------- */
@@ -926,7 +912,7 @@ footer li a:hover, footer li a:focus  {
         margin-bottom: 1.3em;
     }
 
-    #work-icons-container {
+    #skills-icons-container {
         display: grid;
         width: 40%;
     }
@@ -939,7 +925,7 @@ footer li a:hover, footer li a:focus  {
         display: none
     }
 
-    .work-icon-box {
+    .skills-icon-box {
         margin: 1em;
     }
 
