@@ -247,7 +247,6 @@ header li:hover, header a:focus i {
     position: relative;
     width: 70%;
     margin: 0 auto;
-    text-indent: 3em;
     font-size: 1.5em;
 }
 
@@ -314,7 +313,6 @@ header li:hover, header a:focus i {
 
 .skills-section-text {
     padding: 0 4vw;
-    text-indent: 3rem;
     margin-bottom: 3.5vh;
     font-size: 1.5em;
 }
@@ -650,23 +648,23 @@ footer ul li a#instagram-footer {
     border-color: #e22881;
 }
 
-#github-footer:hover {
+#github-footer:hover, #github-footer:focus {
     color: #b438bc;
 }
 
-#facebook-footer:hover {
+#facebook-footer:hover, #facebook-footer:focus {
     color: #4783eb;
 }
 
-#linkedin-footer:hover {
+#linkedin-footer:hover, #linkedin-footer:focus {
     color: #5692fb;
 }
 
-#twitter-footer:hover {
+#twitter-footer:hover, #twitter-footer:focus {
     color: #7ecef7;
 }
 
-#instagram-footer:hover {
+#instagram-footer:hover, #instagram-footer:focus {
     color: #e22881;
 }
 
@@ -859,7 +857,6 @@ footer li a:hover, footer li a:focus  {
     .bio-content-box {
         width: 100%;
         padding: 0 4vw;
-        text-indent: unset;
     }
 
     #bio .bio-content-box {
@@ -883,7 +880,6 @@ footer li a:hover, footer li a:focus  {
     }
 
     .skills-section-text {
-        text-indent: unset;
         font-size: 1.3em;
     }
 
