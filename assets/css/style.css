@@ -269,13 +269,13 @@ header li:hover, header a:focus i {
 }
 
 /* Gives illusion of muving border effect */
-.education-container-border {
+.education-container-border, .education-container-border2 {
     background: linear-gradient(90deg,
         #161018 70%,
         #b438bc 80%,
         #161018 90%);
     border-radius: 1.5em;
-    animation: 2s border-effect linear infinite;
+    animation: 4s border-effect linear infinite;
     background-size: 200% 200%;
     padding: 0.3em;
     visibility: hidden;
@@ -305,7 +305,7 @@ header li:hover, header a:focus i {
 
 /* Education-wrapper Hover Effect */
 
-.education-container-border:hover {
+.education-container-border:hover, .education-container-border2:hover {
     visibility: visible;
 }
 
@@ -884,8 +884,12 @@ footer li a:hover, footer li a:focus  {
         font-size: 0.7em;
     }
 
-    .education-container-border {
+    .education-container-border, .education-container-border2 {
         visibility: visible;
+    }
+
+    .education-container-border2{
+        animation-delay: 2s;
     }
 
     .skills-section-text {
