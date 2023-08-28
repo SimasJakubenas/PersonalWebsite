@@ -292,13 +292,12 @@ Please refer to [TESTING.md](TESTING.md) for all testing carried out.
 | 1 | Initially I had a hidden div with :target pseudo class to display a pop up text for 'Education' section however it was distorting the section's dimentions and was behaving inconsistently if clicked while the screen was focused on different location of the site. | I used figure and figcaption elements akin those in 'Work Experience' section instead. |
 | 2 | Due to limitations to CSS I couldn't get the menu for tablet and phone screens to behave the way I wanted. | I had to research other solutions and I settled for jQuery that I used within head element of HTML. |
 | 3 | The way I had structured the form elements inputs prevented me from from having the order I desired for smaller screen devices. | I had to research how to make grid templates and apply it to the form element. |
-| 4 | All anchor elements targeting figcaptions to display text would have the website scroll to the top of page. | Fixed by setting relative position to corresponding section. |
+| 4 | All anchor elements targeting figcaptions to display text would have the website scroll to the top of page. | Fixed by setting relative position to corresponding section.
+| 5 | (Deprecate) When clicked on the school icon in 'Education' section the figcaption backdrop doesnt cover some parts of the website. Other icons dont have this issue. I removed the 'blurry background' effect from 'Education' section to hide this fact. | Was able to fix the issue by removing relative position from dark sections and adding z-index, however the feature was removed in the final version. |
 
 ### Known Bugs
 
-| No | Bug |
-| :-- | :-- |
-| 1 | When clicked on the school icon in 'Education' section the figcaption backdrop doesnt cover some parts of the website. Other icons dont have this issue. I removed the 'blurry background' effect from 'Education' section to hide this fact. I haven't been able to figure out why this is happening.
+No known bugs observed.
 
 ## Credits
 
@@ -313,6 +312,8 @@ Please refer to [TESTING.md](TESTING.md) for all testing carried out.
 [Radio Button Vertical Align](https://stackoverflow.com/questions/16644614/position-style-series-of-radio-buttons-vertically) - was used to align radio buttons vertically fir small screen sizes.
 
 [W3Schools](https://www.w3schools.com/) - was queried  for various pieces of information throughout the developing process.
+
+[Moving Border Effect](https://www.youtube.com/watch?v=7rE4VMtbY9E&t=145s) - inspired by 'Fd Web design' youtube tutorial.
 
 ### Content 
 

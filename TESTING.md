@@ -96,7 +96,7 @@ The website was tested on the following browsers:
 | Hamburger Icon (when menu is revealed) | Clicked icon | Hides the menu | The menu is hidden from sight in a smooth motion from bottom up | Pass|
 | Hamburger hover/focus effect | Hovered/focused the menu icon | Change colour | Icon became purple in colour | Pass |
 | All menu item | Pressed on every menu item | Takes user to the section described by menu item | Scrolls the page to coresponding section | Pass|
-|Typing animation in the greeting message | Reloaded page | Give the ilusion of typing uppon reload | The word 'website' appears to be typed in uppon loading | Pass |
+|Typing animation in the greeting message | Reloaded page | Give the illusion of typing uppon reload | The word 'website' appears to be typed in uppon loading | Pass |
 |Typewriter cursor animation | Observed | Should blink continuosly | Appears to blink indefinitely | Pass |
 
 `Education section`
@@ -115,7 +115,7 @@ The website was tested on the following browsers:
 
 | Feature | Testing Performed | Expected Result | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| Coding languages animation | Observed | Animation repeats in 5s intervals| Moves from left to right to give ilusion of loading and continues in a loop | Pass |
+| Coding languages animation | Observed | Animation repeats in 5s intervals| Moves from left to right to give illusion of loading and continues in a loop | Pass |
 
 `Work Experience section`
 

@@ -41,6 +41,7 @@ li li li {
     list-style-type: square;
 }
 
+/* Removes default anchor background */
 a {
     background-color: rgba(0, 0, 0, 0);
 }
