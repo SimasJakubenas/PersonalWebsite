@@ -151,17 +151,18 @@ header li:hover, header a:focus i {
     text-indent: 3em;
 }
 
+/* Typing and Type Writer Cursor Animation */
+/* Taken and modified from Geoff Graham https://css-tricks.com/snippets/css/typewriter-effect/ */
 #type_animation {
     display: inline-block;
     width: 55%;
     max-width: fit-content;
 }
-    
+
 #type_animation {
     overflow: hidden;
     border-right: .15em solid #d2a1f2;
     white-space: nowrap;
-    /* margin: 0 auto; */
     animation: 
         typing 2.7s steps(40, end),
         blink-caret .75s step-end infinite;
@@ -233,7 +234,6 @@ header li:hover, header a:focus i {
     min-height: 100vh;
     height: auto;
     overflow: hidden;
-    /* position: relative; */
     padding-bottom: 10vh;
 }
 
@@ -269,6 +269,7 @@ header li:hover, header a:focus i {
 }
 
 /* Gives illusion of muving border effect */
+/* inspired by 'Fd Web design' youtube tutorial https://www.youtube.com/watch?v=7rE4VMtbY9E&t=145s */
 .education-container-border, .education-container-border2 {
     background: linear-gradient(90deg,
         #161018 70%,
@@ -349,7 +350,8 @@ header li:hover, header a:focus i {
     text-transform: uppercase;
     border-radius: 0.5em;
 }
-
+/* Animated Skills Bar */
+/* Inspired by DarkCode Youtube tutorial https://www.youtube.com/watch?v=IHQMOklyqXM */
 #skill-html, #skill-css {
     height: 0.8vh;
     border: 1px solid #d2a1f285;
@@ -737,21 +739,9 @@ footer li a:hover, footer li a:focus  {
     }
 }
 
-/* Education section animated border effect */
-/* inspired by 'Fd Web design' youtube tutorial https://www.youtube.com/watch?v=7rE4VMtbY9E&t=145s */
 @keyframes border-effect {
     50% {
         background-position-x: 200%;
-    }
-}
-
-/* Click Me Arrow */
-@keyframes arrow {
-    0%, 100% {
-        width: 0;
-    }
-    50% {
-        width: 4%;
     }
 }
 
@@ -925,7 +915,8 @@ footer li a:hover, footer li a:focus  {
         padding: 1em 2em;
         margin-bottom: 1.3em;
     }
-
+    /* Solution to stack radio buttons vertically */
+    /* Taken from https://stackoverflow.com/questions/16644614/position-style-series-of-radio-buttons-vertically */
     label:after {
         content: "\A";
         white-space: pre;
