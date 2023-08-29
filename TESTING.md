@@ -37,11 +37,11 @@ I used Lighthouse thats within Chrome Developer Tools to test the websites perfo
 
 #### Desktop Results
 
-![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/8055b888-5291-44cc-b2d6-ca8d5df1212c)
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/f5fd0a6a-6aed-49e6-958b-32f471885a7f)
 
 #### Mobile Results
 
-![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/caf1e391-6e86-4723-b00b-99f6d9df8529)
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/074af510-3150-417f-8813-da793c2f3b2d)
 
 ## Manual Testing
 
@@ -110,7 +110,7 @@ The website was tested on the following browsers:
 | (Deprecated) Mortarboard icon hover/focus effect | Hoverer/focused the icon | Enlarge the icon | The icon increased in size(feature is removed in final version) | Pass |
 | (Deprecated) The 'X' closing button | Clicked the button | hide the figcaption | The figcaption disappears from the view (feature is removed in final version) | Pass |
 | (Deprecated) Arrow animation | Observed | Goes left and right on a loop | Arrow moves left and right as if it's pointing to an icon (feature is removed in final version) | Pass |
-| Education container animated border on hover | Hovered on the container | Border animation animation starts | Border is animated uppon hover |
+| Education container animated border on hover | Hovered on the container | Border animation animation starts | Border is animated uppon hover | Pass |
 
 `Skills section`
 
@@ -124,7 +124,7 @@ The website was tested on the following browsers:
 
 | Feature | Testing Performed | Expected Result | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| Border and shadow animation on hover | Hovered over text | Animation starts | Border and shadow is animated uppon hover |
+| Border and shadow animation on hover | Hovered over text | Animation starts | Border and shadow is animated uppon hover | Pass |
 
 
 `Contact Me section`
