@@ -501,12 +501,26 @@ header li:hover, header a:focus i {
 
 #work-exp-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .work-exp-box {
     height: auto;
     padding-bottom: 3vh;
+    transform: skewX(5deg);
+    border-radius: 1em;
+    padding: 2em;
+    margin: 5vh;
+    border-top: 0.07em solid transparent;
+    border-right: 0.03em solid transparent;
+    animation: 8s shadow-effect infinite;
+}
+
+.work-exp-box:hover {
+    border-top: 0.07em solid #B0A8B9;
+    border-right: 0.03em solid #B0A8B9;
+    box-shadow: -1.5em 1.5em 0.15em #2b2a2c;
+    transition: 1s;
 }
 
 .work-exp-box p {
@@ -773,6 +787,23 @@ footer li a:hover, footer li a:focus  {
     }
 }
 
+/* Work Experience Section Shadow Effect */
+@keyframes shadow-effect {
+    0% {
+        box-shadow: none;
+    }
+    
+    10% {
+        border-top: 0.07em solid #B0A8B9;
+        border-right: 0.03em solid #B0A8B9;
+        box-shadow: -1.5em 1.5em 0.15em #2b2a2c;
+    }
+
+    50% {
+        box-shadow: none;
+    }
+}
+
 /* =====    Media Queries     ================== */
 
 /* Screen size bellow 350px */
@@ -907,8 +938,6 @@ footer li a:hover, footer li a:focus  {
     }
     
     .work-exp-box {
-        border: 0.15em dotted #d2a1f2;
-        border-radius: 1em;
         padding: 1em 2em;
         margin-bottom: 1.3em;
     }
