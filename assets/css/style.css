@@ -278,7 +278,7 @@ header li:hover, header a:focus i {
     border-radius: 1.5em;
     animation: 4s border-effect linear infinite;
     background-size: 200% 200%;
-    padding: 0.3em;
+    padding: 0.15em;
     visibility: hidden;
     z-index: 5;
 }
@@ -382,7 +382,6 @@ header li:hover, header a:focus i {
 
 #skills-icons-container {
     background-color: #161018;
-    border: 0.4vh dashed #d2a1f2;
     border-radius: 1.5em;
     width: 60%;
     text-align: center;
