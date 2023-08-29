@@ -103,26 +103,29 @@ The website was tested on the following browsers:
 
 | Feature | Testing Performed | Expected Result | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| School icon in 'Education' section | Clicked on Icon | Reveal info about the school I went to | A figcaption is displayed in the middle of screen with info about my school | Pass |
-| School icon hover/focus effect | Hoverer/focused the icon | Enlarge the icon | The icon increased in size | Pass |
-| The 'X' closing button | Clicked the button | hide the figcaption | The figcaption disappears from the view | Pass |
-| Mortarboard icon in 'Education' section | Clicked on Icon | Reveal info about the education I'm recieving | A figcaption is displayed in the middle of screen with info about my current education | Pass |
-| Mortarboard icon hover/focus effect | Hoverer/focused the icon | Enlarge the icon | The icon increased in size | Pass |
-| The 'X' closing button | Clicked the button | hide the figcaption | The figcaption disappears from the view | Pass |
-| Arrow animation | Observed | Goes left and right on a loop | Arrow moves left and right as if it's pointing to an icon | Pass |
+| (Deprecated) School icon in 'Education' section | Clicked on Icon | Reveal info about the school I went to | A figcaption is displayed in the middle of screen with info about my school (feature is removed in final version) | Pass |
+| (Deprecated) School icon hover/focus effect | Hoverer/focused the icon | Enlarge the icon | The icon increased in size (feature is removed in final version) | Pass |
+| (Deprecated) The 'X' closing button | Clicked the button | hide the figcaption | The figcaption disappears from the view (feature is removed in final version) | Pass |
+| (Deprecated) Mortarboard icon in 'Education' section | Clicked on Icon | Reveal info about the education I'm recieving | A figcaption is displayed in the middle of screen with info about my current education (feature is removed in final version) | Pass |
+| (Deprecated) Mortarboard icon hover/focus effect | Hoverer/focused the icon | Enlarge the icon | The icon increased in size(feature is removed in final version) | Pass |
+| (Deprecated) The 'X' closing button | Clicked the button | hide the figcaption | The figcaption disappears from the view (feature is removed in final version) | Pass |
+| (Deprecated) Arrow animation | Observed | Goes left and right on a loop | Arrow moves left and right as if it's pointing to an icon (feature is removed in final version) | Pass |
+| Education container animated border on hover | Hovered on the container | Border animation animation starts | Border is animated uppon hover |
 
 `Skills section`
 
 | Feature | Testing Performed | Expected Result | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | Coding languages animation | Observed | Animation repeats in 5s intervals| Moves from left to right to give illusion of loading and continues in a loop | Pass |
+| Skills section icons | Clicked the icons | Reveal message asociated with the icon | Reveals the coresponding messages | Pass |
+| Skills section icons hover/focus effect| Hovered/focused the icons | Change colour | Changes icon colour | Pass |
 
 `Work Experience section`
 
 | Feature | Testing Performed | Expected Result | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| Work Experience section icons | Clicked the icons | Reveal message asociated with the icon | Reveals the coresponding messages | Pass |
-| Work Experience section icons hover/focus effect| Hovered/focused the icons | Change colour | Changes icon colour | Pass |
+| Border and shadow animation on hover | Hovered over text | Animation starts | Border and shadow is animated uppon hover |
+
 
 `Contact Me section`
 

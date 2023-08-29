@@ -140,25 +140,30 @@ Consists of my profile picture and some information about me and why I chose a n
 
 ### Education section 
 
-![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/6866211c-b6ea-4b74-9ee9-41bb7466ff0c)
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/b5e053fd-966d-485b-9663-fc62860ae34e)
 
-Has an icon of a school and an icon of a mortarboard that upon clicking reveal the school I went to and current education I'm receiving respectively:
-
-![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/2b5b58a8-1205-471a-b370-ef6c0dd07cf7)
+Has an icon of a school beside the school I went to and an icon of a mortarboard beside education I'm receiving. Displays animated border effect on hover seen in the image.
 
 ### Skills section
 
 ![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/5e829a62-9111-4441-83a5-fa8bebff6fe4)
 
+
 Consists of description of the skill-set I will possess upon graduation of my studies and an animation of the coding languages I've learned so far that shows my level of prolificacy in those languages based on my own judgement.
+
+#### Real Life SKills 
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/8032b6b0-d6f9-435e-93ee-fe3c51db48c0)
+
+Contains 3 icons that once clicked reveal the skills I acquired in my current job.
+
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/afb4f5c9-a123-40d9-a3a8-e95ff3331481)
 
 ### Work Experience section
 
-![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/e7bd98bd-f900-430a-a91a-dd444f09868a)
+![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/6640c551-468f-4376-8bdd-cb51720aaff5)
 
-Displays my work experience and 3 icons that upon clicking them reveal real life skills I acquired in those positions:
-
-![image](https://github.com/SimasJakubenas/PersonalWebsite/assets/138577499/59edf501-1d69-4186-b49f-2351f2133ff4)
+Displays my work experience and 3. Reveals the effect in the image when hovered over with a mouse.
 
 ### Contact Me section
 
@@ -293,7 +298,7 @@ Please refer to [TESTING.md](TESTING.md) for all testing carried out.
 | 2 | Due to limitations to CSS I couldn't get the menu for tablet and phone screens to behave the way I wanted. | I had to research other solutions and I settled for jQuery that I used within head element of HTML. |
 | 3 | The way I had structured the form elements inputs prevented me from from having the order I desired for smaller screen devices. | I had to research how to make grid templates and apply it to the form element. |
 | 4 | All anchor elements targeting figcaptions to display text would have the website scroll to the top of page. | Fixed by setting relative position to corresponding section.
-| 5 | (Deprecate) When clicked on the school icon in 'Education' section the figcaption backdrop doesnt cover some parts of the website. Other icons dont have this issue. I removed the 'blurry background' effect from 'Education' section to hide this fact. | Was able to fix the issue by removing relative position from dark sections and adding z-index, however the feature was removed in the final version. |
+| 5 | (Deprecated) When clicked on the school icon in 'Education' section the figcaption backdrop doesnt cover some parts of the website. Other icons dont have this issue. I removed the 'blurry background' effect from 'Education' section to hide this fact. | Was able to fix the issue by removing relative position from dark sections and adding z-index, however the feature was removed in the final version. |
 
 ### Known Bugs
 
