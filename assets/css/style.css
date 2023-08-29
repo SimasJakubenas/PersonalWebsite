@@ -789,8 +789,6 @@ footer li a:hover, footer li a:focus  {
 @keyframes shadow-effect {
     0% {
         box-shadow: none;
-        /* border-top: 0.07em solid #B0A8B9;
-        border-right: 0.03em solid #B0A8B9; */
     }
     
     10% {
