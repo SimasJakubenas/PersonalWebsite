@@ -513,7 +513,6 @@ header li:hover, header a:focus i {
     margin: 5vh;
     border-top: 0.07em solid transparent;
     border-right: 0.03em solid transparent;
-    animation: 8s shadow-effect infinite;
 }
 
 .work-exp-box:hover {
@@ -791,6 +790,8 @@ footer li a:hover, footer li a:focus  {
 @keyframes shadow-effect {
     0% {
         box-shadow: none;
+        /* border-top: 0.07em solid #B0A8B9;
+        border-right: 0.03em solid #B0A8B9; */
     }
     
     10% {
@@ -801,6 +802,8 @@ footer li a:hover, footer li a:focus  {
 
     50% {
         box-shadow: none;
+        border-top: 0.07em solid #B0A8B9;
+        border-right: 0.03em solid #B0A8B9;
     }
 }
 
@@ -940,7 +943,14 @@ footer li a:hover, footer li a:focus  {
     .work-exp-box {
         padding: 1em 2em;
         margin-bottom: 1.3em;
+        animation: 8s shadow-effect infinite;
     }
+
+    .work-exp-box:hover {
+        box-shadow: unset;
+        border: transparent;
+    }
+
     /* Solution to stack radio buttons vertically */
     /* Taken from https://stackoverflow.com/questions/16644614/position-style-series-of-radio-buttons-vertically */
     label:after {
